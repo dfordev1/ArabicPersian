@@ -1,6 +1,6 @@
 # ArabicPersian
 
-Multilingual Arabic-script Qur'an renderings with a scope that can grow across Turkish, Azerbaijani, Kazakh, Jawi, Bangali-Urdu, Maltese, and future languages.
+Multilingual Arabic-script Qur'an renderings with a scope that can grow across Turkish, Azerbaijani, Kazakh, Jawi, Bangali-Urdu, Maltese, DV, and future languages.
 
 This repository keeps the project broad on purpose: the same structure can hold more languages as you add them, without changing the overall layout.
 
@@ -22,10 +22,11 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 | Jawi | Source JSON input, safe-cleaned working baseline refreshed | `data/source/jawi/quranjawifinal.json` |
 | Bangali-Urdu | Source JSON input | `data/source/bangali-urdu/bangaliurduquran.json` |
 | Maltese | Source JSON input | `data/source/maltese/maltesequrandata.json` |
+| DV | Source JSON input | `data/source/dv/dv-unknow-simple.json` |
 
 ## Project goal
 
-Render modern Turkish, Azeri, and Kazakh Qur'an translations into readable Arabic/Perso-Arabic script, while also organizing new source inputs such as Jawi, Bangali-Urdu, and Maltese into the same expandable workflow, with dictionaries, search indexes, QA reports, and app-ready JSON.
+Render modern Turkish, Azeri, and Kazakh Qur'an translations into readable Arabic/Perso-Arabic script, while also organizing new source inputs such as Jawi, Bangali-Urdu, Maltese, and DV into the same expandable workflow, with dictionaries, search indexes, QA reports, and app-ready JSON.
 
 ## Important claim policy
 
@@ -39,6 +40,7 @@ Recommended labels:
 - Jawi Qur'an Arabic-Script Rendering
 - Bangali-Urdu Qur'an Arabic-Script Rendering
 - Maltese Qur'an Arabic-Script Rendering
+- DV Qur'an Arabic-Script Rendering
 
 Avoid:
 
@@ -68,6 +70,12 @@ normalization. It remains source material rather than a finalized scholarly edit
 The Maltese source JSON at `data/source/maltese/maltesequrandata.json` is kept as
 raw source material and should be converted into app-ready data only after the
 structure is reviewed and mapped.
+
+### DV source note
+
+The `dv` source JSON at `data/source/dv/dv-unknow-simple.json` is preserved as
+source material under a short code label until the canonical project name is
+confirmed.
 
 See:
 

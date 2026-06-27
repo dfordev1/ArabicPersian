@@ -44,6 +44,9 @@ class RepoSmokeTests(unittest.TestCase):
             if path.name == "maltesequrandata.json":
                 self.assertIsInstance(data, dict)
                 self.assertIn("1. Al-Fatiha", data)
+            if path.name == "dv-unknow-simple.json":
+                self.assertIsInstance(data, dict)
+                self.assertIn("1:1", data)
 
 
 if __name__ == "__main__":

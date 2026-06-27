@@ -6,7 +6,7 @@ to grow across multiple languages over time.
 ## Suggested GitHub description
 
 ```text
-Multilingual Arabic-script Qur'an renderings with release bundles, source JSON inputs, QA tooling, and an expandable app scaffold for Turkish, Azerbaijani, Kazakh, Jawi, Bangali-Urdu, Maltese, and future languages.
+Multilingual Arabic-script Qur'an renderings with release bundles, source JSON inputs, QA tooling, and an expandable app scaffold for Turkish, Azerbaijani, Kazakh, Jawi, Bangali-Urdu, Maltese, DV, and future languages.
 ```
 
 ## Suggested scope summary

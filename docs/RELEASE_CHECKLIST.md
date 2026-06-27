@@ -10,6 +10,7 @@ Before publishing a language bundle:
 - [ ] Run repository smoke tests.
 - [ ] Confirm any raw source JSON inputs are documented under `data/source/`.
 - [ ] Confirm new source inputs are listed in the repository description.
+- [ ] Confirm short code labels like `dv` remain mapped to a canonical name in docs.
 - [ ] Generate manifest.
 - [ ] Attach ZIP to GitHub Release.
 - [ ] Add version tag.
