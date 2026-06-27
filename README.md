@@ -19,7 +19,7 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 | Turkish | Mature production candidate | `data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip` |
 | Azeri/Azerbaijani | Production v1 | `data/releases/azeri_quran_arabic_script_production_v1.zip` |
 | Kazakh | Production v1 + v2 pipeline intermediates | `data/releases/kazakh_quran_arabic_script_production_v1.zip` |
-| Jawi | Source JSON input | `data/source/jawi/quranjawifinal.json` |
+| Jawi | Source JSON input, safe-cleaned working baseline refreshed | `data/source/jawi/quranjawifinal.json` |
 | Bangali-Urdu | Source JSON input | `data/source/bangali-urdu/bangaliurduquran.json` |
 
 ## Project goal
@@ -54,6 +54,12 @@ until reviewed by qualified native/scholarly reviewers.
 4. Use dictionary/search-index JSON files for search and word tap features.
 5. Prefer derived copies for app packaging and keep the source ZIPs under `data/releases/`.
 6. Keep raw source JSON inputs under `data/source/` until they are converted into a release format.
+
+### Jawi source note
+
+The Jawi source JSON at `data/source/jawi/quranjawifinal.json` was refreshed from a
+safe-cleaned working baseline that only applies conservative Unicode and spacing
+normalization. It remains source material rather than a finalized scholarly edition.
 
 See:
 
