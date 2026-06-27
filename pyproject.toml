@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arabicpersian"
+version = "0.1.0"
+description = "Multilingual Arabic-script Qur'an renderings with reusable data tooling"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+ap-build-manifest = "scripts.build_manifest:main"
+ap-extract-bundle = "scripts.extract_release_bundle:main"
+ap-validate-json = "scripts.validate_json_files:main"
+ap-split-surah = "scripts.split_verse_lookup_by_surah:main"
+ap-build-search-index = "scripts.build_search_index:main"
+
+[tool.setuptools]
+include-package-data = true
+
