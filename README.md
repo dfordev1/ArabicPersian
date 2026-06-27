@@ -1,6 +1,6 @@
 # ArabicPersian
 
-Multilingual Arabic-script Qur'an renderings with a scope that can grow across Turkish, Azerbaijani, Kazakh, and future languages.
+Multilingual Arabic-script Qur'an renderings with a scope that can grow across Turkish, Azerbaijani, Kazakh, Jawi, Bangali-Urdu, and future languages.
 
 This repository keeps the project broad on purpose: the same structure can hold more languages as you add them, without changing the overall layout.
 
@@ -19,10 +19,12 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 | Turkish | Mature production candidate | `data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip` |
 | Azeri/Azerbaijani | Production v1 | `data/releases/azeri_quran_arabic_script_production_v1.zip` |
 | Kazakh | Production v1 + v2 pipeline intermediates | `data/releases/kazakh_quran_arabic_script_production_v1.zip` |
+| Jawi | Source JSON input | `data/source/jawi/quranjawifinal.json` |
+| Bangali-Urdu | Source JSON input | `data/source/bangali-urdu/bangaliurduquran.json` |
 
 ## Project goal
 
-Render modern Turkish, Azeri, and Kazakh Qur'an translations into readable Arabic/Perso-Arabic script, with dictionaries, search indexes, QA reports, and app-ready JSON.
+Render modern Turkish, Azeri, and Kazakh Qur'an translations into readable Arabic/Perso-Arabic script, while also organizing new source inputs such as Jawi and Bangali-Urdu into the same expandable workflow, with dictionaries, search indexes, QA reports, and app-ready JSON.
 
 ## Important claim policy
 
@@ -33,6 +35,8 @@ Recommended labels:
 - Turkish Arabic-Script Transliteration
 - Azerbaijani Qur'an Arabic-Script Rendering
 - Kazakh Qur'an Arabic-Script Digital Edition
+- Jawi Qur'an Arabic-Script Rendering
+- Bangali-Urdu Qur'an Arabic-Script Rendering
 
 Avoid:
 
@@ -49,6 +53,7 @@ until reviewed by qualified native/scholarly reviewers.
 3. Use the `verse_lookup` JSON as the primary app database.
 4. Use dictionary/search-index JSON files for search and word tap features.
 5. Prefer derived copies for app packaging and keep the source ZIPs under `data/releases/`.
+6. Keep raw source JSON inputs under `data/source/` until they are converted into a release format.
 
 See:
 

@@ -8,6 +8,7 @@ Before publishing a language bundle:
 - [ ] Confirm label says "rendering" or "transliteration", not official edition.
 - [ ] Run JSON validation.
 - [ ] Run repository smoke tests.
+- [ ] Confirm any raw source JSON inputs are documented under `data/source/`.
 - [ ] Generate manifest.
 - [ ] Attach ZIP to GitHub Release.
 - [ ] Add version tag.
