@@ -30,6 +30,18 @@ class RepoSmokeTests(unittest.TestCase):
         self.assertTrue((ROOT / "app" / "styles.css").exists())
         self.assertTrue((ROOT / "app" / "app.js").exists())
 
+    def test_source_json_assets_are_valid(self) -> None:
+        source_dir = ROOT / "data" / "source"
+        for path in source_dir.rglob("*.json"):
+            data = json.loads(path.read_text(encoding="utf-8"))
+            self.assertTrue(data, path.name)
+            if path.name == "quranjawifinal.json":
+                self.assertIsInstance(data, list)
+                self.assertIn("jawiTranslation", data[0])
+            if path.name == "bangaliurduquran.json":
+                self.assertIsInstance(data, dict)
+                self.assertIn("1:1:1", data)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -6,6 +6,8 @@ This repository keeps the project broad on purpose: the same structure can hold 
 
 The starter app in `app/` is intentionally simple: it gives you a reader/search shell now, and it can later point at language-specific bundles without changing the foundation.
 
+Additional source JSON assets can live under `data/source/` for languages that are still being organized into release bundles.
+
 ## Repository structure
 
 See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout this handoff is organized around.

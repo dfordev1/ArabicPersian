@@ -30,3 +30,12 @@ build/
 
 Keep those derived files separate from the release ZIPs.
 
+## Source JSON inputs
+
+Some language projects may arrive as raw JSON instead of release ZIPs. Keep
+those in `data/source/` so they stay easy to inspect and convert.
+
+Current source inputs:
+
+- `data/source/jawi/quranjawifinal.json`
+- `data/source/bangali-urdu/bangaliurduquran.json`
