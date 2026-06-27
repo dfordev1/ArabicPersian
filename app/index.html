@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ArabicPersian</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div>
+        <p class="eyebrow">ArabicPersian</p>
+        <h1>Multilingual Arabic-script Qur'an reader</h1>
+        <p class="lede">A starter UI for Turkish, Azerbaijani, Kazakh, and future language bundles.</p>
+      </div>
+
+      <label>
+        Language
+        <select id="language-select">
+          <option value="tr">Turkish</option>
+          <option value="az">Azerbaijani</option>
+          <option value="kk">Kazakh</option>
+        </select>
+      </label>
+
+      <label>
+        Search
+        <input id="search-input" type="search" placeholder="Search verse text or reference">
+      </label>
+
+      <div class="meta">
+        <span>RTL-ready</span>
+        <span>Verse lookup</span>
+        <span>Dictionary panel</span>
+      </div>
+    </aside>
+
+    <main class="content">
+      <section class="reader">
+        <div class="reader-header">
+          <div>
+            <p class="eyebrow" id="language-label">Turkish</p>
+            <h2 id="surah-title">Surah 1</h2>
+          </div>
+          <p class="reference" id="verse-reference">1:1</p>
+        </div>
+
+        <article class="verse-card">
+          <p class="arabic" id="verse-text">Bismillahirrahmanirrahim</p>
+          <p class="translation" id="verse-translation">Starter copy for the selected language bundle.</p>
+        </article>
+
+        <section class="results">
+          <div class="section-title">
+            <h3>Search results</h3>
+            <p id="result-count">0 results</p>
+          </div>
+          <div id="results-list" class="results-list"></div>
+        </section>
+      </section>
+
+      <aside class="panel">
+        <section>
+          <h3>Dictionary</h3>
+          <p>Tap a word later to show glossary entries, root hints, and reviewer notes.</p>
+        </section>
+        <section>
+          <h3>Bundle status</h3>
+          <ul>
+            <li>Source ZIPs stay in `data/releases/`</li>
+            <li>Intermediate QA ZIPs stay in `data/intermediate/`</li>
+            <li>Derived app data goes into `app/public/data/`</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -2,13 +2,16 @@
 
 Before publishing a language bundle:
 
+- [ ] Confirm the language scope and label are accurate for the bundle.
 - [ ] Verify source translation license.
 - [ ] Verify dictionary/corpus license.
 - [ ] Confirm label says "rendering" or "transliteration", not official edition.
 - [ ] Run JSON validation.
+- [ ] Run repository smoke tests.
 - [ ] Generate manifest.
 - [ ] Attach ZIP to GitHub Release.
 - [ ] Add version tag.
 - [ ] Note known limitations.
 - [ ] Include review status.
 - [ ] Include contact/correction method.
+- [ ] Mention which other languages are planned or already supported.

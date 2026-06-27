@@ -4,6 +4,8 @@ Multilingual Arabic-script Qur'an renderings with a scope that can grow across T
 
 This repository keeps the project broad on purpose: the same structure can hold more languages as you add them, without changing the overall layout.
 
+The starter app in `app/` is intentionally simple: it gives you a reader/search shell now, and it can later point at language-specific bundles without changing the foundation.
+
 ## Repository structure
 
 See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout this handoff is organized around.
