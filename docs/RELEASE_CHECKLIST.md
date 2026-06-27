@@ -9,6 +9,7 @@ Before publishing a language bundle:
 - [ ] Run JSON validation.
 - [ ] Run repository smoke tests.
 - [ ] Confirm any raw source JSON inputs are documented under `data/source/`.
+- [ ] Confirm new source inputs are listed in the repository description.
 - [ ] Generate manifest.
 - [ ] Attach ZIP to GitHub Release.
 - [ ] Add version tag.

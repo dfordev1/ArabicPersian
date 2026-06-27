@@ -7,6 +7,7 @@ ZIP bundles.
 
 - `jawi/quranjawifinal.json`
 - `bangali-urdu/bangaliurduquran.json`
+- `maltese/maltesequrandata.json`
 
 ## Usage rule
 
