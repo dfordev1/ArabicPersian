@@ -8,6 +8,28 @@ The starter app in `app/` is intentionally simple: it gives you a reader/search 
 
 Additional source JSON assets can live under `data/source/` for languages that are still being organized into release bundles.
 
+## Direct Data Links
+
+### Main JSON Files
+
+- [Manifest](manifest.json)
+- [Repository data inventory](docs/DATA_INVENTORY.json)
+- [Turkmen corrected Roman-script source](data/source/turkmen/Turkmen_verse_only_corrected.json)
+- [Turkmen Afghan Perso-Arabic transliteration](data/releases/turkmen/Turkmen_PersoArabic_local.json)
+- [Turkmen transliteration QA failures](data/releases/turkmen/Turkmen_PersoArabic_local_qa_failures.json)
+- [Turkmen source correction apply report](data/releases/turkmen/Turkmen_source_correction_apply_report.json)
+- [Turkmen v2 merge report](data/releases/turkmen/Turkmen_v2_merge_report.json)
+- [Turkmen project Brain](docs/turkmen/Brain.json)
+- [Jawi source JSON](data/source/jawi/quranjawifinal.json)
+- [Bangali-Urdu source JSON](data/source/bangali-urdu/bangaliurduquran.json)
+- [Maltese source JSON](data/source/maltese/maltesequrandata.json)
+- [DV source JSON](data/source/dv/dv-unknow-simple.json)
+
+### Main CSV Files
+
+- [Turkmen corrected Roman-script source CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv)
+- [Turkmen Afghan Perso-Arabic transliteration CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv)
+
 ## Repository structure
 
 See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout this handoff is organized around.
@@ -20,10 +42,10 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 | Azeri/Azerbaijani | Production v1 | `data/releases/azeri_quran_arabic_script_production_v1.zip` |
 | Kazakh | Production v1 + v2 pipeline intermediates | `data/releases/kazakh_quran_arabic_script_production_v1.zip` |
 | Turkmen | Release candidate; Roman source + Afghan Turkmen Perso-Arabic transliteration | [Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [Roman CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) / [Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [Perso-Arabic CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) / [QA notes](docs/turkmen/README.md) |
-| Jawi | Source JSON input, safe-cleaned working baseline refreshed | `data/source/jawi/quranjawifinal.json` |
-| Bangali-Urdu | Source JSON input | `data/source/bangali-urdu/bangaliurduquran.json` |
-| Maltese | Source JSON input | `data/source/maltese/maltesequrandata.json` |
-| DV | Source JSON input | `data/source/dv/dv-unknow-simple.json` |
+| Jawi | Source JSON input, safe-cleaned working baseline refreshed | [Source JSON](data/source/jawi/quranjawifinal.json) |
+| Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |
+| Maltese | Source JSON input | [Source JSON](data/source/maltese/maltesequrandata.json) |
+| DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
 
 ## Project goal
 
