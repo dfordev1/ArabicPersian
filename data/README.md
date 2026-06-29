@@ -10,6 +10,9 @@ Published ZIP bundles for each language.
 - `turkish_quran_arabic_script_v4_0_consistency_usability.zip`
 - `azeri_quran_arabic_script_production_v1.zip`
 - `kazakh_quran_arabic_script_production_v1.zip`
+- `turkmen/Turkmen_PersoArabic_local.json`
+- `turkmen/Turkmen_PersoArabic_local.csv`
+- `turkmen/Turkmen_PersoArabic_local_qa_failures.json`
 
 ## `data/intermediate/`
 
@@ -39,3 +42,5 @@ Current source inputs:
 
 - `data/source/jawi/quranjawifinal.json`
 - `data/source/bangali-urdu/bangaliurduquran.json`
+- `data/source/turkmen/Turkmen_verse_only_corrected.json`
+- `data/source/turkmen/Turkmen_verse_only_corrected.csv`

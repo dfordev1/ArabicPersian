@@ -1,98 +1,57 @@
 {
-  "created_utc": "2026-06-27T07:33:52.960927+00:00",
-  "files_copied": [
-    "data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip",
-    "data/releases/azeri_quran_arabic_script_production_v1.zip",
-    "data/releases/kazakh_quran_arabic_script_production_v1.zip",
-    "data/intermediate/kazakh/kazakh_step1_language_model.zip",
-    "data/intermediate/kazakh/kazakh_step2_master_dictionary.zip",
-    "data/intermediate/kazakh/kazakh_step3_morphology.zip",
-    "data/intermediate/kazakh/kazakh_step4_quran_rebuild.zip",
-    "data/intermediate/kazakh/kazakh_step5_quality_assurance.zip",
-    "data/intermediate/kazakh/kazakh_step5_5_quranic_vocab_lock.zip",
-    "data/intermediate/kazakh/kazakh_final_consistency_checker.zip",
-    "data/intermediate/azeri/azeri_pass2_normalized.zip",
-    "data/intermediate/azeri/azeri_pass3_frequency_analysis.zip",
-    "data/intermediate/azeri/azeri_pass4_quranic_terms.zip",
-    "data/intermediate/azeri/azeri_pass5_morphology.zip",
-    "data/intermediate/azeri/azeri_pass6_consensus_qa.zip"
-  ],
-  "missing_expected_files": [],
-  "manifest": [
+  "created_utc": "2026-06-29T05:53:30.654229+00:00",
+  "description": "Current repository inventory for release and source assets.",
+  "turkmen_release_candidate": {
+    "rows": 6236,
+    "source_hard_blockers": 0,
+    "publishable_rows": 6236,
+    "transliteration_qa_failures": 0,
+    "main_files": [
+      "data/source/turkmen/Turkmen_verse_only_corrected.json",
+      "data/source/turkmen/Turkmen_verse_only_corrected.csv",
+      "data/releases/turkmen/Turkmen_PersoArabic_local.json",
+      "data/releases/turkmen/Turkmen_PersoArabic_local.csv",
+      "data/releases/turkmen/Turkmen_PersoArabic_local_qa_failures.json",
+      "data/releases/turkmen/Turkmen_source_correction_apply_report.json",
+      "data/releases/turkmen/Turkmen_v2_merge_report.json",
+      "docs/turkmen/Brain.json"
+    ]
+  },
+  "files": [
     {
-      "path": "README.md",
-      "size_bytes": 1444,
-      "sha256": "e2fdd18ebb9683c3d8dc729c909e303120bab76e4f260dcdf75d8f4dc255b230"
+      "path": ".github/workflows/validate.yml",
+      "size_bytes": 304,
+      "sha256": "4eac7f64dbe70d93ffe23b39332ea6db9c61fe92e9fbffa18bd293fdbaf146eb"
     },
     {
-      "path": "docs/PROJECT_STATUS.md",
-      "size_bytes": 1088,
-      "sha256": "3e760bb0729ffe4f97437493d3e034b1cb220950c977ceced54b42ef2a9042b0"
+      "path": ".gitignore",
+      "size_bytes": 97,
+      "sha256": "8b8c9a7ec212d7663baba583641c76ad9afb6a42830c5c80669466838858ecb3"
     },
     {
-      "path": "docs/CODEX_EXPORT_GUIDE.md",
-      "size_bytes": 1585,
-      "sha256": "045d400827e48a6736fed82787b83568e03e921483517c11ab00fea60de690db"
+      "path": "app/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
     },
     {
-      "path": "docs/APP_BUILD_GUIDE.md",
-      "size_bytes": 815,
-      "sha256": "14db1b1c45c7057121f88416ccf22db93cbcc345cf6e73426dffb05feac57ea4"
+      "path": "app/app.js",
+      "size_bytes": 2835,
+      "sha256": "31de0330b1efa6d6f1ededaf2bc57542c3f16267e9f1a224887054bfebe1fce2"
     },
     {
-      "path": "docs/QA_REVIEW_GUIDE.md",
-      "size_bytes": 771,
-      "sha256": "568bc93f116a4768f42285609c04bd881aae563549692affe3cdaa0d6544e198"
+      "path": "app/index.html",
+      "size_bytes": 2517,
+      "sha256": "1ca7e6bb37afa5f966c6c45003cff8f6ed1c8d576be7c7fe5ec63af560c3956d"
     },
     {
-      "path": "data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip",
-      "size_bytes": 6739520,
-      "sha256": "f0ebe076119fbf327b014d5a807ff946971d8f7ca92ee748735941d062218fa2"
+      "path": "app/README.md",
+      "size_bytes": 512,
+      "sha256": "b5ac0e927fb8ad3747ae3418a131d51889e46f6a3254600bdf28d9f9e6dc0abf"
     },
     {
-      "path": "data/releases/azeri_quran_arabic_script_production_v1.zip",
-      "size_bytes": 4531336,
-      "sha256": "88a4f722d89dc280fd8a55a6803fb7f46f4b0eab9b2e69e35fd3c47e560dbe55"
-    },
-    {
-      "path": "data/releases/kazakh_quran_arabic_script_production_v1.zip",
-      "size_bytes": 2533618,
-      "sha256": "16f1b3d26016287cd5adb9bf325b5eaf97f323bbf2bb7a9dda3c0cbb4afb3708"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_step1_language_model.zip",
-      "size_bytes": 2335425,
-      "sha256": "52b13ca14e5bf3c942a1f9e8b2777ef5215d93521301a609041b6bc8627d1cb6"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_step2_master_dictionary.zip",
-      "size_bytes": 2182549,
-      "sha256": "9fb0ef8072d4e0ced77d71c675f1ccc00a312021a1c306a1e38cc7997ab0e8b5"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_step3_morphology.zip",
-      "size_bytes": 6127317,
-      "sha256": "c81b3b30e076bb5f45ff6d3f85ff950e0fe3d570aa33e3dc71fdbd40024ee396"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_step4_quran_rebuild.zip",
-      "size_bytes": 1602174,
-      "sha256": "9a72dfa707cc1b9e2a8b6cbb35e6ba5209d43845d375e0cd327f3c917c9b891e"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_step5_quality_assurance.zip",
-      "size_bytes": 5247394,
-      "sha256": "4a824842dda355bfaafe5aaafebfcf0c12246e762648c9febbf3a26664f1a519"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_step5_5_quranic_vocab_lock.zip",
-      "size_bytes": 4939629,
-      "sha256": "3c276ed06b27d0eabf8305b66ee5530adfe4be864f2fb57e9cfcd7e55bbf0a73"
-    },
-    {
-      "path": "data/intermediate/kazakh/kazakh_final_consistency_checker.zip",
-      "size_bytes": 724127,
-      "sha256": "7356f22ee0f1573d7edd859b37d9c2337733f26b672dad049597c5658b5329cd"
+      "path": "app/styles.css",
+      "size_bytes": 2131,
+      "sha256": "3bfaee304317f09d46b7e1000782e94a61cd1e7dc90f6f33d5eb42259a427cb4"
     },
     {
       "path": "data/intermediate/azeri/azeri_pass2_normalized.zip",
@@ -118,6 +77,266 @@
       "path": "data/intermediate/azeri/azeri_pass6_consensus_qa.zip",
       "size_bytes": 4850572,
       "sha256": "5ee3f92beb368d30ddf0fb28988eef3c766a8381cddcd5012e8c654c0f7c4998"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_final_consistency_checker.zip",
+      "size_bytes": 724127,
+      "sha256": "7356f22ee0f1573d7edd859b37d9c2337733f26b672dad049597c5658b5329cd"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_step1_language_model.zip",
+      "size_bytes": 2335425,
+      "sha256": "52b13ca14e5bf3c942a1f9e8b2777ef5215d93521301a609041b6bc8627d1cb6"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_step2_master_dictionary.zip",
+      "size_bytes": 2182549,
+      "sha256": "9fb0ef8072d4e0ced77d71c675f1ccc00a312021a1c306a1e38cc7997ab0e8b5"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_step3_morphology.zip",
+      "size_bytes": 6127317,
+      "sha256": "c81b3b30e076bb5f45ff6d3f85ff950e0fe3d570aa33e3dc71fdbd40024ee396"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_step4_quran_rebuild.zip",
+      "size_bytes": 1602174,
+      "sha256": "9a72dfa707cc1b9e2a8b6cbb35e6ba5209d43845d375e0cd327f3c917c9b891e"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_step5_5_quranic_vocab_lock.zip",
+      "size_bytes": 4939629,
+      "sha256": "3c276ed06b27d0eabf8305b66ee5530adfe4be864f2fb57e9cfcd7e55bbf0a73"
+    },
+    {
+      "path": "data/intermediate/kazakh/kazakh_step5_quality_assurance.zip",
+      "size_bytes": 5247394,
+      "sha256": "4a824842dda355bfaafe5aaafebfcf0c12246e762648c9febbf3a26664f1a519"
+    },
+    {
+      "path": "data/README.md",
+      "size_bytes": 1363,
+      "sha256": "230738cfc04150e20c3cb76cd6249cfa14a8133d50c8ef67f8d308a33a720ebb"
+    },
+    {
+      "path": "data/releases/azeri_quran_arabic_script_production_v1.zip",
+      "size_bytes": 4531336,
+      "sha256": "88a4f722d89dc280fd8a55a6803fb7f46f4b0eab9b2e69e35fd3c47e560dbe55"
+    },
+    {
+      "path": "data/releases/kazakh_quran_arabic_script_production_v1.zip",
+      "size_bytes": 2533618,
+      "sha256": "16f1b3d26016287cd5adb9bf325b5eaf97f323bbf2bb7a9dda3c0cbb4afb3708"
+    },
+    {
+      "path": "data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip",
+      "size_bytes": 6739520,
+      "sha256": "f0ebe076119fbf327b014d5a807ff946971d8f7ca92ee748735941d062218fa2"
+    },
+    {
+      "path": "data/releases/turkmen/Turkmen_PersoArabic_local.csv",
+      "size_bytes": 2970617,
+      "sha256": "9e47f0b24437ebd840f7eb61d7ba6b0870660a8650d41d7ccf913ddda2e15f79"
+    },
+    {
+      "path": "data/releases/turkmen/Turkmen_PersoArabic_local.json",
+      "size_bytes": 4015779,
+      "sha256": "2a847995bd9755cd615127ed533b9c47e89f1984d1bd8ae354cb551b9e4af4c1"
+    },
+    {
+      "path": "data/releases/turkmen/Turkmen_PersoArabic_local_qa_failures.json",
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "data/releases/turkmen/Turkmen_source_correction_apply_report.json",
+      "size_bytes": 6043,
+      "sha256": "1f4c738481a7e954b23a9b99b9bc18ade65ce2b3ccc4ab6460c33c29ffb72c87"
+    },
+    {
+      "path": "data/releases/turkmen/Turkmen_v2_merge_report.json",
+      "size_bytes": 15239,
+      "sha256": "ad3128dc558eeba90b7eddeae42455b9648b9b025efc19ac0b96359796e7fae9"
+    },
+    {
+      "path": "data/source/bangali-urdu/bangaliurduquran.json",
+      "size_bytes": 2701413,
+      "sha256": "53012c8810540230baf8dcfa8fcd2ac888be7d6efb0932f6595f03bb64b70656"
+    },
+    {
+      "path": "data/source/dv/dv-unknow-simple.json",
+      "size_bytes": 2746628,
+      "sha256": "732e264e74111d518f3f7adcdf4811f06598e618e7b0e6e098dc40243839be07"
+    },
+    {
+      "path": "data/source/jawi/quranjawifinal.json",
+      "size_bytes": 3385519,
+      "sha256": "be5255448726ac409e0a9f1e560973ea973fb74768de5a3c5e5dde73729fe64a"
+    },
+    {
+      "path": "data/source/maltese/maltesequrandata.json",
+      "size_bytes": 1351472,
+      "sha256": "f2561c53a8761b8800aa5dde0a2c92dc4fc2f182ac2f62487c2f68939e511d99"
+    },
+    {
+      "path": "data/source/README.md",
+      "size_bytes": 749,
+      "sha256": "3196f730d0a0d08ca3dd705e75061192e7bffc3b032f69c206259b772c8c29a0"
+    },
+    {
+      "path": "data/source/turkmen/Turkmen_verse_only_corrected.csv",
+      "size_bytes": 1180931,
+      "sha256": "9dc7574238189fb3c8b47643f227ab286e945753d3fa7789fd5c21306ac59c2f"
+    },
+    {
+      "path": "data/source/turkmen/Turkmen_verse_only_corrected.json",
+      "size_bytes": 1708523,
+      "sha256": "cfa0549afb5a3facb725e2dd3b08bd1cfa15f9eae0cccb8a0429098c1024c089"
+    },
+    {
+      "path": "docs/APP_BUILD_GUIDE.md",
+      "size_bytes": 859,
+      "sha256": "334664058c8bb66f093b28b5239c81797965daca574d234727b3db74b89cbcd0"
+    },
+    {
+      "path": "docs/CODEX_EXPORT_GUIDE.md",
+      "size_bytes": 1671,
+      "sha256": "7f3984d603b5f6ad8d3f9f8776be44b4ed3da58609ac8b361e4e41f6470cdb54"
+    },
+    {
+      "path": "docs/PROJECT_STATUS.md",
+      "size_bytes": 1589,
+      "sha256": "08a1adca23a1d32c808d500daf878e867c4a9a752f22379fdb0936fa37dc397d"
+    },
+    {
+      "path": "docs/QA_REVIEW_GUIDE.md",
+      "size_bytes": 813,
+      "sha256": "56c7efdf0ef67bfe873e92ca7a68545de0efb530fee8443502295cc0647be035"
+    },
+    {
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "size_bytes": 865,
+      "sha256": "f0f1d98ab0a2af4dca3c1756323e761893db05a10de068f63fd3a3c15f20e97e"
+    },
+    {
+      "path": "docs/REPO_STRUCTURE.md",
+      "size_bytes": 1304,
+      "sha256": "56b36174d8fc6c1343de7454df60c0e8fbe65f07cc6115ff8338d31064925644"
+    },
+    {
+      "path": "docs/REPOSITORY_DESCRIPTION.md",
+      "size_bytes": 761,
+      "sha256": "119d3fa3abdb14f97f293a167424bfe27e90c97d6c303e2a1852e7062ed629f0"
+    },
+    {
+      "path": "docs/turkmen/Brain.json",
+      "size_bytes": 9674,
+      "sha256": "5600e807337d4a1e1b40114045083edd386fa966dd18858ad0e737891d010f61"
+    },
+    {
+      "path": "docs/turkmen/README.md",
+      "size_bytes": 1156,
+      "sha256": "02c100ec53300fea052a2e6c2e51a4eca59c681b83c2c27fee8a56b1b7484271"
+    },
+    {
+      "path": "engine/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "engine/README.md",
+      "size_bytes": 246,
+      "sha256": "4d72c440aad57c28bf73755d718b63a45e4ff3efbed5cdbec6a99c5201800684"
+    },
+    {
+      "path": "languages/az/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "languages/kk/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "languages/tr/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "manifest.json",
+      "size_bytes": 16852,
+      "sha256": "f6b45316bdabac69c114d9e8e79052802d70d75e212d642df2803d9d586272cc"
+    },
+    {
+      "path": "prompts/CODEX_KAZAKH_V2_CONTINUE_PROMPT.md",
+      "size_bytes": 1188,
+      "sha256": "ce90043839b641d80d011c01d768a92946d6f81cdb378b7fb9c25ab043456040"
+    },
+    {
+      "path": "prompts/CODEX_REPO_SETUP_PROMPT.md",
+      "size_bytes": 1167,
+      "sha256": "9c77e1f9fe726e73d4605c85adcf68f76fd2aaa4426ccefe8d6b1b518235a323"
+    },
+    {
+      "path": "prompts/LOVABLE_MULTILINGUAL_APP_PROMPT.md",
+      "size_bytes": 1626,
+      "sha256": "d12860b896041e0804debf0f0aea557e794577e28355eec7033073756e658759"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 669,
+      "sha256": "cf0167dd1384b54a09fd638a20997011dad8c1cbd0c5e52fd2ec3dd6e73d416d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4426,
+      "sha256": "7a27d380140fdca52d596613340f0bd0f735b6110c9dbd821ba9407ea839cde5"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 18,
+      "sha256": "a93670f01474deafe77f9058126bce3d5f66fa62c41c0f27851d91da915fa0f5"
+    },
+    {
+      "path": "review/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "size_bytes": 895,
+      "sha256": "b4d7429ce26e71019a8086e461cd1b2e29980de8707c0cfeb40e386fa52c2a12"
+    },
+    {
+      "path": "scripts/build_search_index.py",
+      "size_bytes": 1321,
+      "sha256": "39dc0f7da163f1ac61aaf919470f8aa93465ed5675d3300f998cf025dbc21924"
+    },
+    {
+      "path": "scripts/extract_release_bundle.py",
+      "size_bytes": 489,
+      "sha256": "7fd4b9eb2920ef451e1d81477dfb52ce11a32f6418c90154b72343326e4b8100"
+    },
+    {
+      "path": "scripts/split_verse_lookup_by_surah.py",
+      "size_bytes": 853,
+      "sha256": "f30024bd8f0e22686ba9077929406328fc3ae4aa3fb763a1d2263b37b4bcb8a8"
+    },
+    {
+      "path": "scripts/validate_json_files.py",
+      "size_bytes": 588,
+      "sha256": "8a3c0c9f5e69774847e081dcff4cdd88586341154839896f85e1037b5b6bfff3"
+    },
+    {
+      "path": "tests/.gitkeep",
+      "size_bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "tests/test_repo_smoke.py",
+      "size_bytes": 2287,
+      "sha256": "957e73f911a89df331fbcd546a8639cb2dba8d8af2b285c98678c3f01828e4c1"
     }
   ]
 }

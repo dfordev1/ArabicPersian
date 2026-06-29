@@ -1,0 +1,118 @@
+{
+  "project": {
+    "name": "Turkmen Quran Translation Perso-Arabic Transliteration",
+    "workspace": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany",
+    "purpose": "Maintain cleaned Turkmen Latin Quran translation data and generate Afghan Turkmen Perso-Arabic transliteration artifacts."
+  },
+  "source_of_truth": {
+    "raw_json": "C:\\Users\\Dev\\Desktop\\Turkmen.json",
+    "cleaned_latin_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_verse_only_clean.json",
+    "cleaned_latin_csv": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_verse_only_clean.csv",
+    "auto_remediated_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_verse_only_auto_remediated.json",
+    "auto_remediated_csv": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_verse_only_auto_remediated.csv"
+  },
+  "pipeline": {
+    "transliterator": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\transliterate_afghan_turkmen.py",
+    "source_quality_qa": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\source_quality_qa.py",
+    "auto_remediation": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\source_auto_remediate.py",
+    "correction_overlay_builder": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\build_source_correction_overlay.py",
+    "correction_overlay_applier": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\apply_source_corrections.py",
+    "source_correction_overlay": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\source_corrections.json",
+    "local_pipeline": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\local_pipeline.py",
+    "local_qa": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\local_qa.py",
+    "runner": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\local_loop_runner.py",
+    "run_command": "& 'C:\\Users\\Dev\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe' 'C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\local_loop_runner.py'",
+    "external_api_dependency": false
+  },
+  "agent_operations": {
+    "architecture_svg": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\max_agent_network_architecture.svg",
+    "agents_md": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\AGENTS.md",
+    "memory_md": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\MEMORY.md",
+    "rules_md": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\RULES.md",
+    "objectives_md": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\OBJECTIVES.md",
+    "term_overrides": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\term_overrides.json",
+    "success_criteria": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\success_criteria.json",
+    "failure_patterns": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\failure_patterns.json",
+    "fix_strategies": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\fix_strategies.json",
+    "audit_trail": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\work\\audit_trail.jsonl",
+    "scope_decision": "Implemented the useful control layer from the max architecture, not all 144 speculative files."
+  },
+  "orthography": {
+    "target": "Afghan Turkmen Perso-Arabic orthography",
+    "principle": "Strict phonetic transliteration of Turkmen, with conventional Arabic spellings for Islamic and Arabic-origin terms.",
+    "important_rules": [
+      "Use explicit vowel carriers for word-initial vowels: ئە, ئی, ئو, ئۆ, ئۇ, ئۈ.",
+      "Use ھ for Turkmen h, ک for k, ڭ for ň, ژ for ž, چ for ç.",
+      "Do not use Arabic API/LLM calls; transliteration is deterministic and local.",
+      "Preserve Turkmen words; do not translate into Arabic or Persian.",
+      "Use conventional spellings for terms such as الله, رحمن, رحیم, قرآن, نماز, عبادت."
+    ]
+  },
+  "qa_status": {
+    "last_run_summary": {
+      "source_rows": 6236,
+      "hard_blockers": 0,
+      "quarantined_rows": 0,
+      "corrections_applied": 57,
+      "full_transliterated_rows": 6236,
+      "publishable_rows": 6236,
+      "transliteration_qa_failures": 0
+    },
+    "source_issue_policy": "Rows with embedded verse-number fragments are corrected through source_corrections.json using v2 candidates and deterministic split fixes, then rechecked.",
+    "known_blocker": "No hard blockers remain after applying 57 source corrections. Broad suspect rows remain review hints, not release blockers."
+  },
+  "outputs": {
+    "full_flagged_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_PersoArabic_local.json",
+    "full_flagged_csv": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_PersoArabic_local.csv",
+    "publishable_only_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_PersoArabic_publishable_only.json",
+    "publishable_only_csv": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_PersoArabic_publishable_only.csv",
+    "sample_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_PersoArabic_local_sample_20.json",
+    "qa_failures_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_PersoArabic_local_qa_failures.json",
+    "source_hard_blockers_csv": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_source_hard_blockers.csv",
+    "source_hard_blockers_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_source_hard_blockers.json",
+    "auto_remediation_manifest": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_auto_remediation_manifest.json"
+    ,
+    "source_correction_apply_report": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_source_correction_apply_report.json",
+    "corrected_latin_source": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_verse_only_corrected.json",
+    "v2_merge_report": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_v2_merge_report.json",
+    "pdf_correction_candidates_json": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_pdf_correction_candidates.json",
+    "pdf_correction_candidates_csv": "C:\\Users\\Dev\\Documents\\Codex\\2026-06-28\\files-mentioned-by-the-user-kurany\\outputs\\Turkmen_pdf_correction_candidates.csv"
+  },
+  "decisions": [
+    {
+      "decision": "Use Turkmen.json as better master than earlier CSVs.",
+      "reason": "Earlier CSV had REVIEW_NEEDED and garbled rows; Turkmen.json had complete 6236-row structure."
+    },
+    {
+      "decision": "Remove text after Düşündiriş: marker.",
+      "reason": "Düşündiriş means explanation/commentary, not verse text."
+    },
+    {
+      "decision": "Do not use Claude/API pipeline.",
+      "reason": "A deterministic local transliteration pipeline is reproducible, cheaper, and avoids non-deterministic output."
+    },
+    {
+      "decision": "Quarantine corrupted source rows instead of auto-inventing corrections.",
+      "reason": "Sacred text publication requires source authority; column-interleaved PDF rows cannot be safely guessed."
+    },
+    {
+      "decision": "Implement a compact agent-operations layer instead of scaffolding all 144 proposed architecture files.",
+      "reason": "The local pipeline benefits from memory, rules, success criteria, failure patterns, fix strategies, and audit trail without unnecessary unused modules."
+    },
+    {
+      "decision": "Add source correction overlay before source QA.",
+      "reason": "The pipeline can now apply authoritative fixes from work/source_corrections.json and automatically graduate corrected ayahs on the next run."
+    },
+    {
+      "decision": "Generate PDF-derived correction candidates as review aids only.",
+      "reason": "Column-aware extraction found candidates for 45 of 57 blockers, but samples show some are partial or wrong-page; they must not be auto-applied without review."
+    }
+  ],
+  "next_actions": [
+    "Spot-review the 57 applied source corrections, especially v2-derived rows where letters may be dropped.",
+    "Review broad source-quality hints in Turkmen_source_quality_report.csv.",
+    "Package the release-candidate JSON/CSV, reports, Brain.json, and README.",
+    "Optionally build SQLite export for app/search use."
+  ],
+  "maintenance_rule": "Update this Brain.json after every significant source, pipeline, QA, or output change."
+}

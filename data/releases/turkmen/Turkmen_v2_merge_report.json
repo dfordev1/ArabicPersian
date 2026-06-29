@@ -1,0 +1,346 @@
+{
+  "applied_count": 55,
+  "skipped_count": 2,
+  "applied": [
+    {
+      "ref": "2:38",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Biz: «Hemmäňiz ondan (jennetden ýere düşüň! Soň size Menden bir dogry ýol (kita ýa-da pygamber) gelse, (kim) Meniň ol dogr ýoluma tabyn bolsa, olara gorky-howp ýokdu we olar gamgyn hem bolmazlar» diýdik."
+    },
+    {
+      "ref": "2:40",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Eý, ysraýyl ogullary! Siz Meniň size (ata babalaryňyza) beren nygmatlarymy ýatlaň Meniň size (sylag berjek diýip) beren ähti peýmanyma wepaly bolmagym üçin, si hem maňa (tabyn boljakdygyňyz üçin) bere ähti-peýmanynyza wepaly boluň! Siz diň Menden heder ediň!"
+    },
+    {
+      "ref": "2:275",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Süýthorlar (guburlaryndan) şeýtan (jyn) uran (adam) ýaly bolup turarlar. Bu (ýagdaýa düşmekleriniň sebäbi) olaryň: «Söwda-satyk göýä göterim (süýthorlyk) ýalydyr» diýendikleri (zerarlydyr). Alla söwda-satygy halal edip, göterimi (süýthorlygy) haram edendir. Kim Perwerdigärinden öwüt-nesihat gelenden soň süýthorlygy taşlasa, öňki (alan göterimi) özüniňkidir (oňa haram däldir) we (göterimi taşlandygy üçin) onuň işi Alla galandyr (oňa sogap berer). (Emma) kim ýene-de (süýthorlyga) dolansa (ony halal hasaplasa), olar dowzahydyrlar. Olar ol ýerde ebedi galarlar."
+    },
+    {
+      "ref": "5:90",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Eý, iman getirenler! Takyk, ara (şerap), humar, dikilgi daşlar (butlar) w pal (atylýan) oklar şeýtanyň pis-hap işleridir. Bes, siz halas bolmagyňyz üçi ondan daş duruň!"
+    },
+    {
+      "ref": "5:104",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Olara: «Allanyň inderenine (Kurana) we pygamberň (sünnetine) geliň!» diýlende, olar: «Ata-babalarymyzdan gören zadymyz (ýolumyz) bize ýeterlikdir» diýerler. Eger olaryň atababalary (hak dinden) hiç zady bilmedik we dogry ýoly tapmadyk bolsalar hem (olaryň ýolundan gitjekmikäler)?!"
+    },
+    {
+      "ref": "6:46",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Eý, Muhammet!) Aýt: «Hany aýdyň eger Alla gulaklaryňyzy (ker), gözleriňiz (kör edip) alsa we ýürekleriňize möhü ursa, Alladan başga ony ýene gaýdy berjek hudaý kimdir? Seret, Biz olar (Allanyň ýeke-täkligini subut edýän aýatlary nähili beýän edýäris. Soň ola (bu aýatlardan) ýüz öwürýärler»."
+    },
+    {
+      "ref": "6:133",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Seniň Perwerdigäriň Baýdyr (hiç zada mätäç däldir), rahmet eýesidir. Ol islese sizi ýok eder we sizi başga bir kowumyň zürýadyndan (neslinden) ýaradyşy ýaly‚ sizden soň ýeriňize islänini getirer."
+    },
+    {
+      "ref": "7:53",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Ýöne olar: «Kitapda özlerine wada berlen jezanyň gelmegine garaşýarlar. Onuň beren ajaýyp habarlarynyň dogrulygy tassyk bolanda‚ öň (oňa garşy çykyp)‚ ony unudanlar: «Takyk, Perwerdigärimiziň ilçileri bize dogry habarlary getiripdirler. Indi bu taýda bize hossar çykjak tapylarmyka? Ýa-da eden erbet işlerimiziň ýerine ýagşy işleri edip biler ýaly öňki ýaşaýşymyza dolanmaga mümkinçilik bolarmy?» diýerler. Takyk, olar özlerini zyýana sezewar etdiler. Edinen ýalan hudaýlaryndan bolsa, netije bolmady."
+    },
+    {
+      "ref": "12:97",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Ýakubyň ogullary): «Eý, atamyz! (Allanyň) biziň günälerimizi bagyşlamagyny diläweri. Şübhesiz, biz hata etdik» diýdiler."
+    },
+    {
+      "ref": "12:98",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Ýakup): «Men siziň günäleriňizi bagyşlamagy üçin Perwerdigärime ýalbararyn. Takyk, Ol Bagyşlaýjydyr, Rehim-şepagatlydyr» diýdi."
+    },
+    {
+      "ref": "17:28",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Eger (eliňde berere zadyň bolmanlygy üçin) Perwerdigäriňden (gelmegine) umydygärlik bilen garaşýan rahmetiň (bereketiň) sebäpli, olardan (garyplardan) ýüz öwürýän bolsaň, onda olara (bolmanda) mylaýym (göwün alyjy) söz bir aýt!"
+    },
+    {
+      "ref": "17:29",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Eliňi boýnuňa baglama (gysganç bolma! Isripçil bolup) eliňi bütinleý açyp hem goýberme! (Şeýle etseň) ýazgarylan we biçäre galan halda bolarsyň."
+    },
+    {
+      "ref": "17:30",
+      "old_score": 400,
+      "new_score": 0,
+      "candidate_text": "Şübhesiz, seniň Perwerdigäriň rysgaly islän kişisine giňden ýaýar we (islän kişisine) dar eder. Takyk, Ol bendelerinden habardardyr, (olary) görüp durandyr."
+    },
+    {
+      "ref": "26:1",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Ta, Sin, Mim. Bular äşgär (inderilen) kitabyň aýatlarydyr."
+    },
+    {
+      "ref": "26:2",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Ta, Sin, Mim. Bular äşgär (inderilen) kitabyň aýatlarydyr."
+    },
+    {
+      "ref": "26:3",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Sen göýä, olar iman getirmeýärler diýip, özüňi heläk edäýjek bolýarsyň."
+    },
+    {
+      "ref": "26:184",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Sizi we öňki nesilleri ýaradanda gorkuň!» diýdi."
+    },
+    {
+      "ref": "26:185",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Olar: «Sen jadylanan bolmaly Sen özümiz ýaly adamdan başg zat dälsiň. Hatda biz seni ýalanç hasaplaýarys."
+    },
+    {
+      "ref": "26:186",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Olar: «Sen jadylanan bolmaly Sen özümiz ýaly adamdan başg zat dälsiň. Hatda biz seni ýalanç hasaplaýarys."
+    },
+    {
+      "ref": "26:187",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Eger dogrusyny aýdýanlarda bolsaň, hany asmandan bir bölek (azaby biziň üstümize inder, göreli» diýdiler."
+    },
+    {
+      "ref": "26:188",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Şugaýyp: «Perwerdigärim sizi edýän işiňizi has gowy bilýändir» diýdi."
+    },
+    {
+      "ref": "26:189",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Şeýdip, (eýke halky hem Şugaýby ýalan hasapladylar. Şol sebäpli, he kölegeli günüň azaby olaryň ýakasynda ýapyşdy. Ol aýylganç günüň azabydy."
+    },
+    {
+      "ref": "33:63",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Adamlar senden kyýamatyň haçan boljakdygyny sorarlar. Sen (olara): «Ol hakdaky maglumat diňe Allanyň ýanyndadyr» diýip aýt. Sen ony nädip biljek, ahyrzaman, belki, tiz wagtda bolar."
+    },
+    {
+      "ref": "33:65",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Olar ol ýerde ebedi galarlar. Şeýle hem olar özlerine ne bir hemaýatkär, nede bir kömekçi taparlar."
+    },
+    {
+      "ref": "33:67",
+      "old_score": 400,
+      "new_score": 0,
+      "candidate_text": "Eý, Perwerdigärimiz! Takyk, Biz baştutanlarymyza we kethudalarymyza eýerdik. Olar bolsa bizi ýoldan çykardylar."
+    },
+    {
+      "ref": "37:77",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Biz onuň (Nuhuň) zürýadyny (tä kyýamata çenli) dowamatly etdik."
+    },
+    {
+      "ref": "37:79",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Ähli) älemlerde Nuha salam bolsun!"
+    },
+    {
+      "ref": "37:81",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Takyk, Ol Biziň iman getiren bendelerimizden bolupdy."
+    },
+    {
+      "ref": "37:82",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Soň beýleki (iman getirmedikleri bolsa suwda) gark etdik."
+    },
+    {
+      "ref": "45:1",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Ha, Mim."
+    },
+    {
+      "ref": "47:1",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Ol (Alla) inkär edenleriň (kapyrlaryň we (ynsanlary) Allanyň ýolunda sowýanlaryň amallaryny puja çykardy."
+    },
+    {
+      "ref": "51:52",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Şeýle-de, mundan öňki (ymmatlara) hem bir pygamber gelende, hökman (garşydaşlary) oňa jadygöý ýa-da däli diýdiler."
+    },
+    {
+      "ref": "51:53",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Olar muny biri-birlerine maslahat berdilermikä? Ýok, olar azgyn kowumdylar."
+    },
+    {
+      "ref": "51:54",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Bes, sen (hem) olardan ýüz öwür! Sen (olar hakykaty kabul etmändigi üçin) ýazgarylmarsyň."
+    },
+    {
+      "ref": "51:55",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Emma onda-da) sen (olara) öwüt ber! Takyk, öwüt möminlere peýda berer."
+    },
+    {
+      "ref": "51:56",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Men jynlary we ynsanlary diňe Özüme ybadat etsinler diýip ýaratdym."
+    },
+    {
+      "ref": "53:24",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Onda ynsanyň arzuw edýän zady näme?"
+    },
+    {
+      "ref": "54:7",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Olaryň gözleri gorkudan (utançdan) ýaňa (aşak bakyp), çar tarapa ýaýran çekirtgeler ýaly (bölek-bölek) bolup mazarlaryndan çykarlar."
+    },
+    {
+      "ref": "54:8",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Kapyrlar çagyryja tarap (ylgap baryşlaryna): «Bu gaty ýowuz gün» diýerler."
+    },
+    {
+      "ref": "54:9",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Olardan öň Nuh kowumy hem (pygamberi) ýalan hasaplady. Bes, (olar) ony ýalançy hasaplap: «Bu bir däli» diýdiler we (dinini ýaýmagyna päsgel bolup) ony ynjytdylar."
+    },
+    {
+      "ref": "54:10",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Ol (hem) Perwerdigärini çagyryp: «(Eý, Perwerdigärim!) Takyk, men ýeňildim, maňa kömek et» diýdi."
+    },
+    {
+      "ref": "54:11",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Biz çabga (kimin ýagýan) suw (bulut) bilen asmanyň gapylaryny açdyk."
+    },
+    {
+      "ref": "68:17",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Biz, «Bakja eýelerini» synag edişimiz ýaly, olary (mekgelileri) hem (açlyk we gurakçylyk) bilen synadyk. Olar (bakja eýeleri) säher bolanda, (hiç kim görmänkä), ony (hasyllary) ýygnarys diýip kasam etdiler. Olar (Alla) halasa diýmediler (we nygmatyň Alladandygyny bilmediler)."
+    },
+    {
+      "ref": "68:18",
+      "old_score": 200,
+      "new_score": 0,
+      "candidate_text": "Biz, «Bakja eýelerini» synag edişimiz ýaly, olary (mekgelileri) hem (açlyk we gurakçylyk) bilen synadyk. Olar (bakja eýeleri) säher bolanda, (hiç kim görmänkä), ony (hasyllary) ýygnarys diýip kasam etdiler. Olar (Alla) halasa diýmediler (we nygmatyň Alladandygyny bilmediler)."
+    },
+    {
+      "ref": "68:19",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Emma) olar (heniz) ukudakalar özleriniň Perwerdigäri tarapyndan iberilen gaplaýjy bir apat (ot) bakjany gaplap aldy."
+    },
+    {
+      "ref": "68:21",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Olar säher (bolanda: «Öňisoňy) ýygnajak bolsak, (hany, onda) irräk gymyldalyň» diýip, (biri-birlerine) seslendiler."
+    },
+    {
+      "ref": "68:22",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Olar säher (bolanda: «Öňisoňy) ýygnajak bolsak, (hany, onda) irräk gymyldalyň» diýip, (biri-birlerine) seslendiler."
+    },
+    {
+      "ref": "68:25",
+      "old_score": 1100,
+      "new_score": 0,
+      "candidate_text": "Olar göýä (garyp-gasarlary) mahrum etmäge güýçleri bar ýaly bolup irden ýola çykdylar."
+    },
+    {
+      "ref": "71:11",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "(Şonda) Ol asmandan size bol edip ýagyş (bereket) ýagdyrar."
+    },
+    {
+      "ref": "71:12",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Siziň mal-mülküňizi we perzentleriňizi köpelder, size bagbakjalar, derýalar (akdyryp) berer."
+    },
+    {
+      "ref": "71:13",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Siz näme üçin Alla üçin beýikligi ýaraşdyrmaýarsyňyz?"
+    },
+    {
+      "ref": "71:14",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Ol sizi dürli görnüşde ýaratdy."
+    },
+    {
+      "ref": "71:15",
+      "old_score": 100,
+      "new_score": 0,
+      "candidate_text": "Allanyň ýedi gat asmany nädip (biribiri bilen) sazlaşykly ýaradandygyny görmeýärsiňmi?"
+    },
+    {
+      "ref": "71:18",
+      "old_score": 300,
+      "new_score": 0,
+      "candidate_text": "Soň sizi (ýene-de) ol ýere gaýtaryp (mazara salyp), sizi ol ýerden (ýene-de) çykarar."
+    },
+    {
+      "ref": "73:20",
+      "old_score": 1000,
+      "new_score": 0,
+      "candidate_text": "(Eý, Muhammet!) Takyk, Perwerdigäriň seniň (käwagt) gijäniň üçden ikisine ýakyn wagtyny, (käwagt) ýarysyny, (käwagt hem) üçden birini (ybadat bilen) geçirýändigiňi, seniň ýanyňda (orun alan) bir toparyň hem muny berjaý edýändigini bilýär. Gijäni we gündizi (ýaradyp, olaryň möhletlerini) ölçän (hem) Alladyr. Ol siziň muny sanap bilmejekdigiňizi bilýändigi (ýagny siziň gijäni tutuşlygyna ybadat bilen geçirip bilmeýänligiňiz) üçin (Öz pazly-keremi bilen) siziň tobaňyzy kabul etdi. (Siz) Kurandan (başardygyňyzça) özüňize ýeňil gelen bölegini okaň! Alla siziň araňyzda hassalaryň hem boljakdygyny bilýär. Siziň käbiriňiz, Allanyň pazly-kereminden (nesibeleriňizi) gözlemek üçin, (ýol geçip), ýer ýüzüniň (çar künjüne) aýlanýarsyňyz. Käbiriňiz bolsa Allanyň ýolunda söweş üçin (ýörişe) çykýarsyňyz. (Geliň) indi Kurandan (başardygyňyzça) özüňize ýeňil gelen"
+    }
+  ],
+  "skipped": [
+    {
+      "ref": "53:10",
+      "reason": "existing_non_v2_correction_kept"
+    },
+    {
+      "ref": "57:9",
+      "reason": "existing_non_v2_correction_kept"
+    }
+  ]
+}

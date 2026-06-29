@@ -19,6 +19,7 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 | Turkish | Mature production candidate | `data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip` |
 | Azeri/Azerbaijani | Production v1 | `data/releases/azeri_quran_arabic_script_production_v1.zip` |
 | Kazakh | Production v1 + v2 pipeline intermediates | `data/releases/kazakh_quran_arabic_script_production_v1.zip` |
+| Turkmen | Release candidate; Roman source + Afghan Turkmen Perso-Arabic transliteration | [Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [Roman CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) / [Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [Perso-Arabic CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) / [QA notes](docs/turkmen/README.md) |
 | Jawi | Source JSON input, safe-cleaned working baseline refreshed | `data/source/jawi/quranjawifinal.json` |
 | Bangali-Urdu | Source JSON input | `data/source/bangali-urdu/bangaliurduquran.json` |
 | Maltese | Source JSON input | `data/source/maltese/maltesequrandata.json` |
@@ -27,6 +28,8 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 ## Project goal
 
 Render modern Turkish, Azeri, and Kazakh Qur'an translations into readable Arabic/Perso-Arabic script, while also organizing new source inputs such as Jawi, Bangali-Urdu, Maltese, and DV into the same expandable workflow, with dictionaries, search indexes, QA reports, and app-ready JSON.
+
+The Turkmen bundle adds both a corrected Roman-script source and an Afghan Turkmen Perso-Arabic transliteration release candidate. Start from [docs/turkmen/README.md](docs/turkmen/README.md) for exact file links and QA status.
 
 ## Important claim policy
 
@@ -37,6 +40,7 @@ Recommended labels:
 - Turkish Arabic-Script Transliteration
 - Azerbaijani Qur'an Arabic-Script Rendering
 - Kazakh Qur'an Arabic-Script Digital Edition
+- Turkmen Qur'an Afghan Turkmen Perso-Arabic Transliteration
 - Jawi Qur'an Arabic-Script Rendering
 - Bangali-Urdu Qur'an Arabic-Script Rendering
 - Maltese Qur'an Arabic-Script Rendering

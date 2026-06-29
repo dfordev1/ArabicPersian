@@ -56,3 +56,20 @@ Remaining:
 - Historical Kazakh Arabic orthography comparison
 - Review top low-confidence tokens
 - Final production v2 packaging after review
+
+## Turkmen
+
+Status: **release candidate**
+
+Completed:
+
+- Corrected Roman-script source JSON and CSV
+- Deterministic Afghan Turkmen Perso-Arabic transliteration JSON and CSV
+- Source correction report with 0 hard blockers
+- Transliteration QA report with 0 failures
+- Project Brain/provenance notes
+
+Remaining:
+
+- Final human/editorial review before public religious-text release
+- License/source permission verification before broad publication

@@ -1,0 +1,292 @@
+{
+  "source_rows": 6236,
+  "overlay_rows": 57,
+  "corrections_applied": 57,
+  "applied": [
+    {
+      "surah_number": "2",
+      "ayat_number": "38",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "2",
+      "ayat_number": "40",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "2",
+      "ayat_number": "275",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "5",
+      "ayat_number": "90",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "5",
+      "ayat_number": "104",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "6",
+      "ayat_number": "46",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "6",
+      "ayat_number": "133",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "7",
+      "ayat_number": "53",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "12",
+      "ayat_number": "97",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "12",
+      "ayat_number": "98",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "17",
+      "ayat_number": "28",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "17",
+      "ayat_number": "29",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "17",
+      "ayat_number": "30",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "1",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "2",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "3",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "184",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "185",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "186",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "187",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "188",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "26",
+      "ayat_number": "189",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "33",
+      "ayat_number": "63",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "33",
+      "ayat_number": "65",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "33",
+      "ayat_number": "67",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "37",
+      "ayat_number": "77",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "37",
+      "ayat_number": "79",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "37",
+      "ayat_number": "81",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "37",
+      "ayat_number": "82",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "45",
+      "ayat_number": "1",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "47",
+      "ayat_number": "1",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "51",
+      "ayat_number": "52",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "51",
+      "ayat_number": "53",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "51",
+      "ayat_number": "54",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "51",
+      "ayat_number": "55",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "51",
+      "ayat_number": "56",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "53",
+      "ayat_number": "10",
+      "status": "deterministic_split_fix"
+    },
+    {
+      "surah_number": "53",
+      "ayat_number": "24",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "54",
+      "ayat_number": "7",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "54",
+      "ayat_number": "8",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "54",
+      "ayat_number": "9",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "54",
+      "ayat_number": "10",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "54",
+      "ayat_number": "11",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "57",
+      "ayat_number": "9",
+      "status": "deterministic_split_fix"
+    },
+    {
+      "surah_number": "68",
+      "ayat_number": "17",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "68",
+      "ayat_number": "18",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "68",
+      "ayat_number": "19",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "68",
+      "ayat_number": "21",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "68",
+      "ayat_number": "22",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "68",
+      "ayat_number": "25",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "71",
+      "ayat_number": "11",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "71",
+      "ayat_number": "12",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "71",
+      "ayat_number": "13",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "71",
+      "ayat_number": "14",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "71",
+      "ayat_number": "15",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "71",
+      "ayat_number": "18",
+      "status": "v2_candidate"
+    },
+    {
+      "surah_number": "73",
+      "ayat_number": "20",
+      "status": "v2_candidate"
+    }
+  ]
+}
