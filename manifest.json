@@ -1,11 +1,11 @@
 {
-  "created_utc": "2026-06-29T06:23:57.369788+00:00",
+  "created_utc": "2026-06-29T07:02:02.778448+00:00",
   "root": ".",
   "files": [
     {
       "path": ".git\\COMMIT_EDITMSG",
-      "size_bytes": 36,
-      "sha256": "42ab698343065194c670a68623e96852b0dd4e6404b44eab851ef840750aa2c8"
+      "size_bytes": 23,
+      "sha256": "b1891ec981daa9f9952f6f30c26c7cfed189a5cf6ec726769017dfcc0b68849a"
     },
     {
       "path": ".git\\config",
@@ -94,8 +94,8 @@
     },
     {
       "path": ".git\\index",
-      "size_bytes": 10004,
-      "sha256": "353ef2b3618c859983fe58906b3c4bf264ced13c52972bd5f72500045d8b0bb1"
+      "size_bytes": 10243,
+      "sha256": "35ac6122601832f4cba5e005cbb5af95b8778f7d1eb2fb3e07c5e0b104751510"
     },
     {
       "path": ".git\\info\\exclude",
@@ -104,13 +104,13 @@
     },
     {
       "path": ".git\\logs\\HEAD",
-      "size_bytes": 996,
-      "sha256": "6a650468992c1271c8a707e51601522e95b004b5735e1de2bc50adb6b8315c89"
+      "size_bytes": 1146,
+      "sha256": "bd54bff9bf38a03216c869e7c4da2dc0f4b976ffd0f76905b1a6aa54b8f4bd16"
     },
     {
       "path": ".git\\logs\\refs\\heads\\main",
-      "size_bytes": 996,
-      "sha256": "6a650468992c1271c8a707e51601522e95b004b5735e1de2bc50adb6b8315c89"
+      "size_bytes": 1146,
+      "sha256": "bd54bff9bf38a03216c869e7c4da2dc0f4b976ffd0f76905b1a6aa54b8f4bd16"
     },
     {
       "path": ".git\\logs\\refs\\remotes\\origin\\HEAD",
@@ -119,8 +119,8 @@
     },
     {
       "path": ".git\\logs\\refs\\remotes\\origin\\main",
-      "size_bytes": 670,
-      "sha256": "5fc2596b1096d8691072712a1e2f648ccf700b0f91527978bd3f84b31f1e3612"
+      "size_bytes": 804,
+      "sha256": "9fd88d4fca81b17536f1e8a3d5a60b9c1d93aac40fa7053cbcec0bc03e2917c7"
     },
     {
       "path": ".git\\objects\\03\\66d03ddc8ca988d23e0b5af8df39da11bda016",
@@ -151,6 +151,11 @@
       "path": ".git\\objects\\10\\3b4be928dd30c65c5b3677d7d0403347e032a5",
       "size_bytes": 93,
       "sha256": "a087384e24cf652bcbf5156050caeb336f361b45c8898e91151bcf1532dab455"
+    },
+    {
+      "path": ".git\\objects\\14\\1f03aa964450c7f94ecb60e9a296fd8d9861ef",
+      "size_bytes": 1918,
+      "sha256": "de987b70d9c5c3e934e37136b7e9e7dd7f9776a2015e9956838eb090866b8016"
     },
     {
       "path": ".git\\objects\\14\\320fbf045aa32e365e6a340a765e038a0d7990",
@@ -188,9 +193,19 @@
       "sha256": "aa05f9d7d6232f52d2b8699e804d399b1fcccb819445efe49912dd8389df6b1f"
     },
     {
+      "path": ".git\\objects\\24\\91359cac5976b310fd320e2ae1f048d5fd718d",
+      "size_bytes": 156,
+      "sha256": "77c2257c6ebe9f8d49295cc99a9ff56040cacd4412a4586bc3e9a8d9b1ed8a33"
+    },
+    {
       "path": ".git\\objects\\26\\86dd7898b1b3d32d04f3861fce3b7a25211c9f",
       "size_bytes": 436005,
       "sha256": "d5e7162c43cdf7749ad236586b442b3575791222704fdce7e132035ef1e0c89a"
+    },
+    {
+      "path": ".git\\objects\\2a\\d2ecf3070c7c2920c0c6c2bcdb3ff2d09a1445",
+      "size_bytes": 111,
+      "sha256": "57a247ff00dd1eced73e919bd338f4a99477633cdb418c9fd27ad10670e5a018"
     },
     {
       "path": ".git\\objects\\2f\\bf0374ac457eee8464442931b6beacd7960a4c",
@@ -331,6 +346,11 @@
       "path": ".git\\objects\\6f\\7fcae20577928a415cdcf418b8356dc9bdd7fc",
       "size_bytes": 92,
       "sha256": "8b58fe1484cf14599a1e617bd92cbf34c1425c73977954907fb36af95157423e"
+    },
+    {
+      "path": ".git\\objects\\70\\6fd00f2f116b55891d57cacfae31314590371e",
+      "size_bytes": 1878285,
+      "sha256": "92499fb28964751fbf7dd983bb45fa220ede6fafe3c2d6d5b7e9359cb4dec576"
     },
     {
       "path": ".git\\objects\\70\\75b93d1786318523636bc8178041fc556ed253",
@@ -498,6 +518,21 @@
       "sha256": "7494360a180c898c286b33e2715c5db34e6fe2765fb0865075b64f6e1b3a2404"
     },
     {
+      "path": ".git\\objects\\ed\\e189b9b9778f2e245fce3880e3b1f480892f05",
+      "size_bytes": 529,
+      "sha256": "1bb44976df4d66f8a672d005e1ed0dfb57f7cf95fdda4be71e0118f5cc63bbde"
+    },
+    {
+      "path": ".git\\objects\\f1\\194d2fca8407d617cb2091f54cfebc4b82f3bb",
+      "size_bytes": 2000378,
+      "sha256": "55d95361e9839e3e9b459a8bf5edeb6cf2f7088523cefb0400b74088f4a8581b"
+    },
+    {
+      "path": ".git\\objects\\f1\\fc6d50f139cf4a5fec547c6670c7a395b3a755",
+      "size_bytes": 13298,
+      "sha256": "2b45cb8a0471a81e1b102977f43d322a82f2bfdfd6690587a72da0de45b7c4ff"
+    },
+    {
       "path": ".git\\objects\\f2\\cd877aae2bd9bef318fd64bdf3bfd0832b44db",
       "size_bytes": 500,
       "sha256": "265cbd08307d8fb1993c2fb20b60278bde09c0961b75314d79a57ddb92296aec"
@@ -535,7 +570,7 @@
     {
       "path": ".git\\refs\\heads\\main",
       "size_bytes": 41,
-      "sha256": "d5b7416bb45532af30207b35c6e1a20f3cb3e26d5465080b49ea00f351671a95"
+      "sha256": "f4f2607f1a838ab7f6aac2891fba5a5208277b704aca2c3b24b1f08d474e96ab"
     },
     {
       "path": ".git\\refs\\remotes\\origin\\HEAD",
@@ -545,7 +580,7 @@
     {
       "path": ".git\\refs\\remotes\\origin\\main",
       "size_bytes": 41,
-      "sha256": "d5b7416bb45532af30207b35c6e1a20f3cb3e26d5465080b49ea00f351671a95"
+      "sha256": "f4f2607f1a838ab7f6aac2891fba5a5208277b704aca2c3b24b1f08d474e96ab"
     },
     {
       "path": ".github\\workflows\\validate.yml",
@@ -843,6 +878,11 @@
       "sha256": "9a38801cdec0327465a66ad66a8e79347333dbd2e56efc5bdcee5c8be81d05e5"
     },
     {
+      "path": "docs\\PIPELINE_DATA_INDEX.md",
+      "size_bytes": 15414,
+      "sha256": "2ba5c401835c5206c4c7c595abbec1699eadb316c30b2973fb1292e417cd79e5"
+    },
+    {
       "path": "docs\\PROJECT_STATUS.md",
       "size_bytes": 2806,
       "sha256": "740d2a406cc8970a4e2b4105f992bfe7df76c3a8ee1f7eaef7b49bea0ec5bc1a"
@@ -904,8 +944,8 @@
     },
     {
       "path": "manifest.json",
-      "size_bytes": 33845,
-      "sha256": "d33595ab7a2ddc82e6e48f342e919453b4fef3c81b98feaefdb1ad6e2d9d9efa"
+      "size_bytes": 37446,
+      "sha256": "84bfdb2d60eaefb629d29ab0ed5f15105ad08e3543c5c9a15a91be300a45c3f0"
     },
     {
       "path": "prompts\\CODEX_KAZAKH_V2_CONTINUE_PROMPT.md",
@@ -929,8 +969,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 5917,
-      "sha256": "e5d01503baa7326d0074b03e7ea31a89520576f90eaa083855450ecbccc38c03"
+      "size_bytes": 6294,
+      "sha256": "fb37bb9bb4f1bf3e240d05fd50f2808bee9f6237dee13e15d85bfc52a39dba4e"
     },
     {
       "path": "requirements.txt",

@@ -15,6 +15,7 @@ This repository is meant to be easy to browse: choose a language, open the main 
 | Maltese Arabic/Perso-Arabic script rendering | [Maltese Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
 | All available JSON files | [JSON index below](#json-index) |
 | App/release bundles | [Release bundles below](#release-bundles) |
+| Mid-pipeline datasets inside ZIPs | [Pipeline data index](docs/PIPELINE_DATA_INDEX.md) |
 | Project status | [Project status](docs/PROJECT_STATUS.md) |
 | Data inventory with hashes | [Data inventory](docs/DATA_INVENTORY.json) |
 
@@ -61,6 +62,8 @@ This repository is meant to be easy to browse: choose a language, open the main 
 - [Kyrgyz QA production v1 beta bundle](data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip)
 - [Uzbek v2 production fixed beta bundle](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip)
 
+For the dictionaries, word-frequency files, morphology datasets, validation reports, search indexes, raw extracted sources, and other mid-pipeline files inside these ZIPs, see the [Pipeline Data Index](docs/PIPELINE_DATA_INDEX.md).
+
 ## Notes
 
 These files are computational renderings, transliterations, or organized source datasets. Do not describe them as official or definitive scholarly editions unless they have been reviewed by qualified native and religious-text reviewers.
@@ -73,6 +76,7 @@ Maltese Arabic/Perso-Arabic output is included as a beta script rendering and sh
 
 - [Data layout](data/README.md)
 - [Repository structure](docs/REPO_STRUCTURE.md)
+- [Pipeline data index](docs/PIPELINE_DATA_INDEX.md)
 - [App build guide](docs/APP_BUILD_GUIDE.md)
 - [Universal app data spec](docs/handoff/APP_DATA_SPEC.md)
 - [Pipeline summary](docs/handoff/PIPELINE_SUMMARY.md)
