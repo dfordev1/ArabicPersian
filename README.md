@@ -1,3 +1,5 @@
+![ArabicPersian multi-language Qur'an transliteration index](assets/arabicpersian-front-index.png)
+
 # ArabicPersian
 
 A simple public index for Qur'an translation data and Arabic/Perso-Arabic script renderings across Turkic and related language projects.
@@ -28,7 +30,7 @@ This repository is meant to be easy to browse: choose a language, open the main 
 | Uzbek | v2 production fixed beta bundle | [Release ZIP](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip) |
 | Jawi | Source JSON input | [Source JSON](data/source/jawi/quranjawifinal.json) |
 | Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |
-| Maltese | Source JSON plus Arabic/Perso-Arabic script rendering | [Source JSON](data/source/maltese/maltesequrandata.json) / [Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
+| Maltese | Source JSON plus Arabic/Perso-Arabic script rendering beta | [Source JSON](data/source/maltese/maltesequrandata.json) / [Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
 | DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
 
 ## JSON Index
@@ -65,6 +67,8 @@ These files are computational renderings, transliterations, or organized source 
 
 Before broad public redistribution, verify source permissions and attribution requirements.
 
+Maltese Arabic/Perso-Arabic output is included as a beta script rendering and should receive native Maltese review before being called final.
+
 ## For Builders
 
 - [Data layout](data/README.md)
@@ -74,3 +78,5 @@ Before broad public redistribution, verify source permissions and attribution re
 - [Pipeline summary](docs/handoff/PIPELINE_SUMMARY.md)
 - [Next steps](docs/handoff/NEXT_STEPS.md)
 - [License notes](docs/handoff/LICENSE_NOTES_GLOBAL.md)
+
+![ArabicPersian wide project banner](assets/arabicpersian-wide-banner.png)
