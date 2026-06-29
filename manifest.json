@@ -1,11 +1,16 @@
 {
-  "created_utc": "2026-06-29T05:53:40.640458+00:00",
+  "created_utc": "2026-06-29T06:12:10.774967+00:00",
   "root": ".",
   "files": [
     {
+      "path": ".git\\COMMIT_EDITMSG",
+      "size_bytes": 32,
+      "sha256": "f8d5760eb3421832d03b57ddb94e21440016051bc43b5a26fb85936434cdf831"
+    },
+    {
       "path": ".git\\config",
-      "size_bytes": 304,
-      "sha256": "89455ac0b9e7c56ce9e5fddf3b4f004fb52d07656e199fca89137161a727c935"
+      "size_bytes": 346,
+      "sha256": "3202e248cae6d1dbcf9e2cd337b23bf7f7a5c0181b3ee8169408ae8608253239"
     },
     {
       "path": ".git\\description",
@@ -89,8 +94,8 @@
     },
     {
       "path": ".git\\index",
-      "size_bytes": 6323,
-      "sha256": "576c5cb1ffbfa9d3f1cbb6d4ee7475da6ec4f3833d9d258bf74e35b9876f2997"
+      "size_bytes": 7452,
+      "sha256": "ba5212fbc5c59aa3df0f16bd74a3ea7a93c2616c4f1f5e44ef1ec0293dcb38e9"
     },
     {
       "path": ".git\\info\\exclude",
@@ -99,18 +104,153 @@
     },
     {
       "path": ".git\\logs\\HEAD",
-      "size_bytes": 190,
-      "sha256": "db6224e3da1cb6b236af671742699beb2452815a717ddfd5f367be699474aa20"
+      "size_bytes": 512,
+      "sha256": "6acd201fe39a36e95178d60f11a4e281b4fa1d2f829f8e7dfbfe5f509c184768"
     },
     {
       "path": ".git\\logs\\refs\\heads\\main",
-      "size_bytes": 190,
-      "sha256": "db6224e3da1cb6b236af671742699beb2452815a717ddfd5f367be699474aa20"
+      "size_bytes": 512,
+      "sha256": "6acd201fe39a36e95178d60f11a4e281b4fa1d2f829f8e7dfbfe5f509c184768"
     },
     {
       "path": ".git\\logs\\refs\\remotes\\origin\\HEAD",
       "size_bytes": 190,
       "sha256": "db6224e3da1cb6b236af671742699beb2452815a717ddfd5f367be699474aa20"
+    },
+    {
+      "path": ".git\\logs\\refs\\remotes\\origin\\main",
+      "size_bytes": 268,
+      "sha256": "ec73c64cdbada5f43fceebdabe6794442b11a63330857ff2aad6a20eac312832"
+    },
+    {
+      "path": ".git\\objects\\03\\66d03ddc8ca988d23e0b5af8df39da11bda016",
+      "size_bytes": 5600,
+      "sha256": "51e93465637e47217fa88bbd6dc33239ba5dc99ee3e9310ded5eb906cc864073"
+    },
+    {
+      "path": ".git\\objects\\06\\37a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
+      "size_bytes": 17,
+      "sha256": "d596f56b4ab387e9dcc8c299f625cd656a871455a3295cb5fec80a87be595c4c"
+    },
+    {
+      "path": ".git\\objects\\0a\\856e2e731afa904d9d92dfbe4f1137991543d1",
+      "size_bytes": 1092197,
+      "sha256": "f391a06412f6b5b3648439cfeecf82c5104f05f36ea9fbd3106f72dd49d89db1"
+    },
+    {
+      "path": ".git\\objects\\14\\320fbf045aa32e365e6a340a765e038a0d7990",
+      "size_bytes": 212,
+      "sha256": "42eb87c2348cd12f7acb7f4aa4d84aec4550e16c408d060c437da428015bb1d7"
+    },
+    {
+      "path": ".git\\objects\\16\\4ad257a1acc41499002f29b23b87e6446ceb5f",
+      "size_bytes": 106,
+      "sha256": "6c7bfe43ab480270c068aec17e6cd09c957b883de6932ab81e818d66641c06a7"
+    },
+    {
+      "path": ".git\\objects\\18\\1e8a11ef2e2dfa46a8b3339689e00311e90e18",
+      "size_bytes": 500,
+      "sha256": "984920c2de2a50af51a2d4bec1d6ae9a22ec8ec54d1de4da193f13aa9df4039c"
+    },
+    {
+      "path": ".git\\objects\\26\\86dd7898b1b3d32d04f3861fce3b7a25211c9f",
+      "size_bytes": 436005,
+      "sha256": "d5e7162c43cdf7749ad236586b442b3575791222704fdce7e132035ef1e0c89a"
+    },
+    {
+      "path": ".git\\objects\\2f\\bf0374ac457eee8464442931b6beacd7960a4c",
+      "size_bytes": 2676,
+      "sha256": "c59589a0169fbe4d15207efc438da8311e4943f35013be7d383aa1de769c481d"
+    },
+    {
+      "path": ".git\\objects\\36\\5db6116222a54351f2e8e0d869ec29c32aa152",
+      "size_bytes": 4823,
+      "sha256": "a0cfcae4f0b77376a857917c9133536c8c4da74b241b4a6aa828808d1ae9e776"
+    },
+    {
+      "path": ".git\\objects\\3a\\dc341b5fec19681173279d1e20b38dc43ffdf7",
+      "size_bytes": 371,
+      "sha256": "539fb41672b15908637dc2319833f564fa3bb68e4ef3d393a67b5f7f3fc70fd9"
+    },
+    {
+      "path": ".git\\objects\\3c\\0af20153ecb35032ccd92d3c376492b554efb0",
+      "size_bytes": 4139,
+      "sha256": "d436cb418882df2d65fee8a052dff02a543e43f24c178d7afd6ae909a9a67461"
+    },
+    {
+      "path": ".git\\objects\\45\\556b488ce6fce7c56aa9f50a26c43245d59589",
+      "size_bytes": 167,
+      "sha256": "47719321a4d3e56741f9a04d41329a5b122912e0bf7123d3e1cb7b5395490dbe"
+    },
+    {
+      "path": ".git\\objects\\48\\441efb4961639ed7125aae990310bfec70a62b",
+      "size_bytes": 521,
+      "sha256": "bb6fb1477812e9181211e5e411123f58a875fcba7b8567c0f34bb8c572c5f533"
+    },
+    {
+      "path": ".git\\objects\\75\\c6fdad92d9bc9ced8e7b354f0d0f16337daff0",
+      "size_bytes": 155,
+      "sha256": "763831b663ccc73c28e26ec37e5d7b069318425a1086f87ef94ee7c448a88bfc"
+    },
+    {
+      "path": ".git\\objects\\76\\30d254a8b8189f91742ef522338411e4f6461f",
+      "size_bytes": 1147346,
+      "sha256": "7079f0a9dc0d762214e90f28e562d86749c3c888bad426ea0064223280a791c7"
+    },
+    {
+      "path": ".git\\objects\\7f\\c4d54dbaf2ec6373e4366f0a79d4ac9dafc545",
+      "size_bytes": 659,
+      "sha256": "575231c0a8eb77520c56157b4d8ed38951fc82e5063862f5cd7380bd1aac2d6a"
+    },
+    {
+      "path": ".git\\objects\\89\\0974295f2e41c12ee366f029b25b4ab11e7232",
+      "size_bytes": 169,
+      "sha256": "704d6e55ccca0d47d74953b3af2dce83035bdb02ad22ae5101c252bd0d07150d"
+    },
+    {
+      "path": ".git\\objects\\99\\611aa2dbbe9fcd229fe52188b6bf24ae8a5005",
+      "size_bytes": 231,
+      "sha256": "656e3a6119dca4fc06d28f69c8920dcb7aaeefb85b7994fe59ba413dd74323c9"
+    },
+    {
+      "path": ".git\\objects\\99\\f6b5473ab0f54c5347b21d7d3c36529bde51ec",
+      "size_bytes": 88,
+      "sha256": "d66a526866b7cc42447a6990a4101546ba692a3d96126cf207edb0b743627cc6"
+    },
+    {
+      "path": ".git\\objects\\a1\\7ef5093bcae9ddc3e2619828fc25476ee8bcc9",
+      "size_bytes": 471,
+      "sha256": "1947fdfeccc2ecdd34de817580b7567d47f9f39246ea54c4627c29d38215d293"
+    },
+    {
+      "path": ".git\\objects\\a2\\8253276ddc8bedfd5709799772832055a5384d",
+      "size_bytes": 209,
+      "sha256": "c071c3a7f9e101edd5ffd9c84f7f9938af09afa5fbb50b6a354bb99c2171e97a"
+    },
+    {
+      "path": ".git\\objects\\aa\\e0ecf612f73c462bf96ef9ef694e615a056665",
+      "size_bytes": 2165,
+      "sha256": "1858c67b29ff0181a0c6e60c469248332f5a923759a3b0925efe180d3a71889e"
+    },
+    {
+      "path": ".git\\objects\\ae\\0f8e89f1a033a01a0e2d8ed37f57bb51a647fb",
+      "size_bytes": 458856,
+      "sha256": "16749412f3dff049f9ca0d5da629f019e3c0548cee8eb50535f086177de9bde0"
+    },
+    {
+      "path": ".git\\objects\\d6\\c16daa2d360dcd59474e20f14c02990eb9f949",
+      "size_bytes": 1860,
+      "sha256": "49d45cc8db4c613cd65b2a10743fa9664aa0283d524f89f2b3df9dfbb774fd14"
+    },
+    {
+      "path": ".git\\objects\\d7\\f7eedd05f27495ec7535afdb9fc851d46f13f2",
+      "size_bytes": 756,
+      "sha256": "adc33fd2bff15d6acb968b04e09e187266b59164afec698abe3bf011f5210799"
+    },
+    {
+      "path": ".git\\objects\\f2\\cd877aae2bd9bef318fd64bdf3bfd0832b44db",
+      "size_bytes": 500,
+      "sha256": "265cbd08307d8fb1993c2fb20b60278bde09c0961b75314d79a57ddb92296aec"
     },
     {
       "path": ".git\\objects\\pack\\pack-bf0b962c01a98b72b8a737c90619f09d900bf96d.idx",
@@ -135,12 +275,17 @@
     {
       "path": ".git\\refs\\heads\\main",
       "size_bytes": 41,
-      "sha256": "702989ae01a003105220dfa231462c712f078be2f0d3e93d7515a192d4511506"
+      "sha256": "5363524199b66b3cfa90afddefe911ba0b0a284e46b9fac934565bc9dc413c53"
     },
     {
       "path": ".git\\refs\\remotes\\origin\\HEAD",
       "size_bytes": 30,
       "sha256": "2bb6a24aa0fc6c484100f5d51a29bbad841cd2c755f5d93faa204e5dbb4eb2b4"
+    },
+    {
+      "path": ".git\\refs\\remotes\\origin\\main",
+      "size_bytes": 41,
+      "sha256": "5363524199b66b3cfa90afddefe911ba0b0a284e46b9fac934565bc9dc413c53"
     },
     {
       "path": ".github\\workflows\\validate.yml",
@@ -238,9 +383,39 @@
       "sha256": "4a824842dda355bfaafe5aaafebfcf0c12246e762648c9febbf3a26664f1a519"
     },
     {
+      "path": "data\\intermediate\\kyrgyz\\kyrgyz_quran_arabic_script_v1_beta.zip",
+      "size_bytes": 3388394,
+      "sha256": "7a4add1b1af182d127efc76d23666d300065413cb7fed11526a16a5f0a217b14"
+    },
+    {
+      "path": "data\\intermediate\\kyrgyz\\kyrgyz_quran_arabic_script_v1_qa_production.zip",
+      "size_bytes": 3082591,
+      "sha256": "55e36cf8886362296b796113390b44f390a07ad9fb5a7230fa768f856cbf292e"
+    },
+    {
+      "path": "data\\intermediate\\uzbek\\uzbek_phase1_master_corpus.zip",
+      "size_bytes": 9031727,
+      "sha256": "483ae3e278a85e50f2d0d9cc77ce522974f7ae653e4c1eb37e5c7e83fd173d09"
+    },
+    {
+      "path": "data\\intermediate\\uzbek\\uzbek_quran_arabic_script_v2_production_fixed.zip",
+      "size_bytes": 9320793,
+      "sha256": "f72a46d69e6df514187a2d52ba8ab2faf46d01eee286f89722e79b86e288bd28"
+    },
+    {
+      "path": "data\\intermediate\\uzbek\\uzbek_v2_consensus_corpus.zip",
+      "size_bytes": 5521219,
+      "sha256": "251de060c8cd53a45c73c9a11b72d4e62b0474da0e8174331459ef3aa7a996c7"
+    },
+    {
       "path": "data\\README.md",
-      "size_bytes": 1363,
-      "sha256": "230738cfc04150e20c3cb76cd6249cfa14a8133d50c8ef67f8d308a33a720ebb"
+      "size_bytes": 1857,
+      "sha256": "0d714edfdeb31184cc241728f07f293c23efc438e0c82f49cdce62051cedab0e"
+    },
+    {
+      "path": "data\\releases\\azeri\\azeri_v2_perso_arabic_start.zip",
+      "size_bytes": 2970555,
+      "sha256": "a60857d9e14c2b5df77fd53bdb885f64c6fe87e8e6978c3774e0f3cc1469b994"
     },
     {
       "path": "data\\releases\\azeri_quran_arabic_script_production_v1.zip",
@@ -248,9 +423,19 @@
       "sha256": "88a4f722d89dc280fd8a55a6803fb7f46f4b0eab9b2e69e35fd3c47e560dbe55"
     },
     {
+      "path": "data\\releases\\kazakh\\kazakh_app_final_bundle.zip",
+      "size_bytes": 8492822,
+      "sha256": "dce79869a0da5e40bc5b217a68d36c1cf27698796f6da97e046e4b180d836551"
+    },
+    {
       "path": "data\\releases\\kazakh_quran_arabic_script_production_v1.zip",
       "size_bytes": 2533618,
       "sha256": "16f1b3d26016287cd5adb9bf325b5eaf97f323bbf2bb7a9dda3c0cbb4afb3708"
+    },
+    {
+      "path": "data\\releases\\kyrgyz\\kyrgyz_quran_arabic_script_v1_qa_production.zip",
+      "size_bytes": 3082591,
+      "sha256": "55e36cf8886362296b796113390b44f390a07ad9fb5a7230fa768f856cbf292e"
     },
     {
       "path": "data\\releases\\turkish_quran_arabic_script_v4_0_consistency_usability.zip",
@@ -281,6 +466,11 @@
       "path": "data\\releases\\turkmen\\Turkmen_v2_merge_report.json",
       "size_bytes": 15239,
       "sha256": "ad3128dc558eeba90b7eddeae42455b9648b9b025efc19ac0b96359796e7fae9"
+    },
+    {
+      "path": "data\\releases\\uzbek\\uzbek_quran_arabic_script_v2_production_fixed.zip",
+      "size_bytes": 9320793,
+      "sha256": "f72a46d69e6df514187a2d52ba8ab2faf46d01eee286f89722e79b86e288bd28"
     },
     {
       "path": "data\\source\\bangali-urdu\\bangaliurduquran.json",
@@ -329,13 +519,48 @@
     },
     {
       "path": "docs\\DATA_INVENTORY.json",
-      "size_bytes": 12379,
-      "sha256": "fa3c159de2013bd6107af20adfde13a412c3671aaafdf4ec09c687fdbf30ecfe"
+      "size_bytes": 16380,
+      "sha256": "157ff5fb6b9f34939b0de91c6cf9d7e427321a30f5d53e796c80170fcace6806"
+    },
+    {
+      "path": "docs\\handoff\\APP_DATA_SPEC.md",
+      "size_bytes": 398,
+      "sha256": "5d350c93fab8238d013e19bcb4085857fc4720548e8e2f2570b6e606b31a0f9c"
+    },
+    {
+      "path": "docs\\handoff\\CODEX_MAIN_PROMPT.md",
+      "size_bytes": 401,
+      "sha256": "4e408712516fe2286d186820536d54ee818fd5396af7d74f466c1ebae6ae4ba8"
+    },
+    {
+      "path": "docs\\handoff\\LICENSE_NOTES_GLOBAL.md",
+      "size_bytes": 150,
+      "sha256": "fada1e6dbcbf01c6ed83642d4e222011ca0e22ce6b19fbb4967c17d3bf6cffe1"
+    },
+    {
+      "path": "docs\\handoff\\LOVABLE_APP_PROMPT.md",
+      "size_bytes": 421,
+      "sha256": "5372825b2a9fb5cc99bc9e8237d5162dc960fedd6533d30c3bb3609d0aa8127e"
+    },
+    {
+      "path": "docs\\handoff\\NEXT_STEPS.md",
+      "size_bytes": 238,
+      "sha256": "97706e168e5a02ed617445a4a662f89f9c728dab224e002737b3888db9a8a1ab"
+    },
+    {
+      "path": "docs\\handoff\\PIPELINE_SUMMARY.md",
+      "size_bytes": 403,
+      "sha256": "dfadaa36e504706bfc05d0a6be3c65f5ffbb57c78befa385113f4f315c1bb60a"
+    },
+    {
+      "path": "docs\\handoff\\project_status.json",
+      "size_bytes": 2487,
+      "sha256": "9a38801cdec0327465a66ad66a8e79347333dbd2e56efc5bdcee5c8be81d05e5"
     },
     {
       "path": "docs\\PROJECT_STATUS.md",
-      "size_bytes": 1589,
-      "sha256": "08a1adca23a1d32c808d500daf878e867c4a9a752f22379fdb0936fa37dc397d"
+      "size_bytes": 2266,
+      "sha256": "6ad52b67bd568ac59e7e4b55f08b3ebbbaacc4c9c75e378b55ef415955afbcfd"
     },
     {
       "path": "docs\\QA_REVIEW_GUIDE.md",
@@ -394,8 +619,8 @@
     },
     {
       "path": "manifest.json",
-      "size_bytes": 16852,
-      "sha256": "f6b45316bdabac69c114d9e8e79052802d70d75e212d642df2803d9d586272cc"
+      "size_bytes": 16853,
+      "sha256": "7b344cace26645ca8928c11ccc7f39b61641758febaa0076bfaabd12c7b60819"
     },
     {
       "path": "prompts\\CODEX_KAZAKH_V2_CONTINUE_PROMPT.md",
@@ -419,8 +644,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4426,
-      "sha256": "7a27d380140fdca52d596613340f0bd0f735b6110c9dbd821ba9407ea839cde5"
+      "size_bytes": 7165,
+      "sha256": "6bc07ae705638e9e0d3afc97c6af6216fa3d9098d9eb50ac9b7061ba88c15748"
     },
     {
       "path": "requirements.txt",

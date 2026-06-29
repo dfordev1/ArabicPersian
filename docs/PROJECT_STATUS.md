@@ -19,13 +19,14 @@ Remaining:
 
 ## Azeri
 
-Status: **90–95% production candidate**
+Status: **90-95% production candidate; v2 Perso-Arabic starter synchronized**
 
 Completed:
 
 - 2 translations
 - 7-pass pipeline
 - Final production v1 bundle
+- v2 Perso-Arabic starter bundle
 - Dictionary, search index, verse lookup
 
 Remaining:
@@ -36,7 +37,7 @@ Remaining:
 
 ## Kazakh
 
-Status: **advanced beta / production candidate with review warning**
+Status: **advanced beta / production candidate with review warning; app-final beta synchronized**
 
 Completed:
 
@@ -49,6 +50,7 @@ Completed:
 - QA pass
 - Locked Qur'anic vocabulary pass
 - Final consistency checker
+- App-final beta bundle
 
 Remaining:
 
@@ -56,6 +58,37 @@ Remaining:
 - Historical Kazakh Arabic orthography comparison
 - Review top low-confidence tokens
 - Final production v2 packaging after review
+
+## Kyrgyz
+
+Status: **QA production v1 beta**
+
+Completed:
+
+- v1 beta pipeline bundle
+- QA production v1 beta release bundle
+
+Remaining:
+
+- Native Kyrgyz Arabic-script review
+- License/source permission verification before broad publication
+- Normalize into the universal app schema
+
+## Uzbek
+
+Status: **v2 production fixed beta**
+
+Completed:
+
+- Phase 1 master corpus bundle
+- v2 consensus corpus bundle
+- v2 production fixed release bundle
+
+Remaining:
+
+- Native Uzbek Arabic/Perso-Arabic script review
+- License/source permission verification before broad publication
+- Normalize into the universal app schema
 
 ## Turkmen
 

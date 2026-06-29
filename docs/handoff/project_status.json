@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-06-28T11:36:05.172075+00:00",
+  "languages": {
+    "Turkish": {
+      "status": "mature production candidate",
+      "quality": "~98%",
+      "bundle": "turkish_quran_arabic_script_v4_0_consistency_usability.zip"
+    },
+    "Azeri": {
+      "status": "production v1 + v2 start",
+      "quality": "~90-95%",
+      "bundle": "azeri_quran_arabic_script_production_v1.zip"
+    },
+    "Kazakh": {
+      "status": "app-ready final beta",
+      "quality": "~90-93% computational beta",
+      "bundle": "kazakh_app_final_bundle.zip"
+    },
+    "Kyrgyz": {
+      "status": "QA production v1 beta",
+      "quality": "~75-85%",
+      "bundle": "kyrgyz_quran_arabic_script_v1_qa_production.zip"
+    },
+    "Uzbek": {
+      "status": "v2 production fixed beta",
+      "quality": "~90-95% computational beta",
+      "bundle": "uzbek_quran_arabic_script_v2_production_fixed.zip"
+    }
+  },
+  "copied_files": [
+    "01_production_bundles/turkish_quran_arabic_script_v4_0_consistency_usability.zip",
+    "01_production_bundles/azeri_quran_arabic_script_production_v1.zip",
+    "01_production_bundles/azeri_v2_perso_arabic_start.zip",
+    "01_production_bundles/kazakh_app_final_bundle.zip",
+    "01_production_bundles/kyrgyz_quran_arabic_script_v1_qa_production.zip",
+    "01_production_bundles/uzbek_quran_arabic_script_v2_production_fixed.zip",
+    "02_language_pipelines/kazakh/kazakh_step1_language_model.zip",
+    "02_language_pipelines/kazakh/kazakh_step2_master_dictionary.zip",
+    "02_language_pipelines/kazakh/kazakh_step3_morphology.zip",
+    "02_language_pipelines/kazakh/kazakh_step4_quran_rebuild.zip",
+    "02_language_pipelines/kazakh/kazakh_step5_quality_assurance.zip",
+    "02_language_pipelines/kazakh/kazakh_step5_5_quranic_vocab_lock.zip",
+    "02_language_pipelines/kazakh/kazakh_final_consistency_checker.zip",
+    "02_language_pipelines/kyrgyz/kyrgyz_quran_arabic_script_v1_beta.zip",
+    "02_language_pipelines/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
+    "02_language_pipelines/uzbek/uzbek_phase1_master_corpus.zip",
+    "02_language_pipelines/uzbek/uzbek_v2_consensus_corpus.zip",
+    "02_language_pipelines/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip",
+    "02_language_pipelines/azeri/azeri_quran_arabic_script_production_v1.zip",
+    "02_language_pipelines/azeri/azeri_v2_perso_arabic_start.zip",
+    "02_language_pipelines/turkish/turkish_quran_arabic_script_v4_0_consistency_usability.zip"
+  ],
+  "missing_files": []
+}

@@ -14,6 +14,7 @@ Additional source JSON assets can live under `data/source/` for languages that a
 
 - [Manifest](manifest.json)
 - [Repository data inventory](docs/DATA_INVENTORY.json)
+- [Future handoff project status](docs/handoff/project_status.json)
 - [Turkmen corrected Roman-script source](data/source/turkmen/Turkmen_verse_only_corrected.json)
 - [Turkmen Afghan Perso-Arabic transliteration](data/releases/turkmen/Turkmen_PersoArabic_local.json)
 - [Turkmen transliteration QA failures](data/releases/turkmen/Turkmen_PersoArabic_local_qa_failures.json)
@@ -30,6 +31,23 @@ Additional source JSON assets can live under `data/source/` for languages that a
 - [Turkmen corrected Roman-script source CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv)
 - [Turkmen Afghan Perso-Arabic transliteration CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv)
 
+### Main Release Bundles
+
+- [Turkish v4.0 consistency/usability bundle](data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip)
+- [Azeri production v1 bundle](data/releases/azeri_quran_arabic_script_production_v1.zip)
+- [Azeri v2 Perso-Arabic starter bundle](data/releases/azeri/azeri_v2_perso_arabic_start.zip)
+- [Kazakh production v1 bundle](data/releases/kazakh_quran_arabic_script_production_v1.zip)
+- [Kazakh app-final beta bundle](data/releases/kazakh/kazakh_app_final_bundle.zip)
+- [Kyrgyz QA production v1 beta bundle](data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip)
+- [Uzbek v2 production fixed beta bundle](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip)
+
+### Handoff And Planning Docs
+
+- [Pipeline summary](docs/handoff/PIPELINE_SUMMARY.md)
+- [Universal app data spec](docs/handoff/APP_DATA_SPEC.md)
+- [Next steps roadmap](docs/handoff/NEXT_STEPS.md)
+- [Global license notes](docs/handoff/LICENSE_NOTES_GLOBAL.md)
+
 ## Repository structure
 
 See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout this handoff is organized around.
@@ -39,8 +57,10 @@ See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout
 | Language | Status | Bundle |
 |---|---:|---|
 | Turkish | Mature production candidate | `data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip` |
-| Azeri/Azerbaijani | Production v1 | `data/releases/azeri_quran_arabic_script_production_v1.zip` |
-| Kazakh | Production v1 + v2 pipeline intermediates | `data/releases/kazakh_quran_arabic_script_production_v1.zip` |
+| Azeri/Azerbaijani | Production v1 + v2 Perso-Arabic starter | [Production v1](data/releases/azeri_quran_arabic_script_production_v1.zip) / [v2 starter](data/releases/azeri/azeri_v2_perso_arabic_start.zip) |
+| Kazakh | Production v1 + app-final beta + v2 pipeline intermediates | [Production v1](data/releases/kazakh_quran_arabic_script_production_v1.zip) / [App-final beta](data/releases/kazakh/kazakh_app_final_bundle.zip) |
+| Kyrgyz | QA production v1 beta | [QA production bundle](data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip) |
+| Uzbek | v2 production fixed beta | [v2 production fixed bundle](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip) |
 | Turkmen | Release candidate; Roman source + Afghan Turkmen Perso-Arabic transliteration | [Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [Roman CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) / [Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [Perso-Arabic CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) / [QA notes](docs/turkmen/README.md) |
 | Jawi | Source JSON input, safe-cleaned working baseline refreshed | [Source JSON](data/source/jawi/quranjawifinal.json) |
 | Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |

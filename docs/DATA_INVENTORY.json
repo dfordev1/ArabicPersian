@@ -1,6 +1,22 @@
 {
-  "created_utc": "2026-06-29T05:53:30.654229+00:00",
-  "description": "Current repository inventory for release and source assets.",
+  "created_utc": "2026-06-29T06:12:09.365680+00:00",
+  "description": "Current repository inventory for release, intermediate, source, and handoff assets.",
+  "synchronized_handoff": {
+    "source_zip": "C:/Users/Dev/Downloads/turkic_arabic_script_quran_full_future_handoff.zip",
+    "added_release_bundles": [
+      "data/releases/azeri/azeri_v2_perso_arabic_start.zip",
+      "data/releases/kazakh/kazakh_app_final_bundle.zip",
+      "data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
+      "data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip"
+    ],
+    "added_intermediate_bundles": [
+      "data/intermediate/kyrgyz/kyrgyz_quran_arabic_script_v1_beta.zip",
+      "data/intermediate/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
+      "data/intermediate/uzbek/uzbek_phase1_master_corpus.zip",
+      "data/intermediate/uzbek/uzbek_v2_consensus_corpus.zip",
+      "data/intermediate/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip"
+    ]
+  },
   "turkmen_release_candidate": {
     "rows": 6236,
     "source_hard_blockers": 0,
@@ -114,9 +130,39 @@
       "sha256": "4a824842dda355bfaafe5aaafebfcf0c12246e762648c9febbf3a26664f1a519"
     },
     {
+      "path": "data/intermediate/kyrgyz/kyrgyz_quran_arabic_script_v1_beta.zip",
+      "size_bytes": 3388394,
+      "sha256": "7a4add1b1af182d127efc76d23666d300065413cb7fed11526a16a5f0a217b14"
+    },
+    {
+      "path": "data/intermediate/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
+      "size_bytes": 3082591,
+      "sha256": "55e36cf8886362296b796113390b44f390a07ad9fb5a7230fa768f856cbf292e"
+    },
+    {
+      "path": "data/intermediate/uzbek/uzbek_phase1_master_corpus.zip",
+      "size_bytes": 9031727,
+      "sha256": "483ae3e278a85e50f2d0d9cc77ce522974f7ae653e4c1eb37e5c7e83fd173d09"
+    },
+    {
+      "path": "data/intermediate/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip",
+      "size_bytes": 9320793,
+      "sha256": "f72a46d69e6df514187a2d52ba8ab2faf46d01eee286f89722e79b86e288bd28"
+    },
+    {
+      "path": "data/intermediate/uzbek/uzbek_v2_consensus_corpus.zip",
+      "size_bytes": 5521219,
+      "sha256": "251de060c8cd53a45c73c9a11b72d4e62b0474da0e8174331459ef3aa7a996c7"
+    },
+    {
       "path": "data/README.md",
-      "size_bytes": 1363,
-      "sha256": "230738cfc04150e20c3cb76cd6249cfa14a8133d50c8ef67f8d308a33a720ebb"
+      "size_bytes": 1857,
+      "sha256": "0d714edfdeb31184cc241728f07f293c23efc438e0c82f49cdce62051cedab0e"
+    },
+    {
+      "path": "data/releases/azeri/azeri_v2_perso_arabic_start.zip",
+      "size_bytes": 2970555,
+      "sha256": "a60857d9e14c2b5df77fd53bdb885f64c6fe87e8e6978c3774e0f3cc1469b994"
     },
     {
       "path": "data/releases/azeri_quran_arabic_script_production_v1.zip",
@@ -124,9 +170,19 @@
       "sha256": "88a4f722d89dc280fd8a55a6803fb7f46f4b0eab9b2e69e35fd3c47e560dbe55"
     },
     {
+      "path": "data/releases/kazakh/kazakh_app_final_bundle.zip",
+      "size_bytes": 8492822,
+      "sha256": "dce79869a0da5e40bc5b217a68d36c1cf27698796f6da97e046e4b180d836551"
+    },
+    {
       "path": "data/releases/kazakh_quran_arabic_script_production_v1.zip",
       "size_bytes": 2533618,
       "sha256": "16f1b3d26016287cd5adb9bf325b5eaf97f323bbf2bb7a9dda3c0cbb4afb3708"
+    },
+    {
+      "path": "data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
+      "size_bytes": 3082591,
+      "sha256": "55e36cf8886362296b796113390b44f390a07ad9fb5a7230fa768f856cbf292e"
     },
     {
       "path": "data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip",
@@ -157,6 +213,11 @@
       "path": "data/releases/turkmen/Turkmen_v2_merge_report.json",
       "size_bytes": 15239,
       "sha256": "ad3128dc558eeba90b7eddeae42455b9648b9b025efc19ac0b96359796e7fae9"
+    },
+    {
+      "path": "data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip",
+      "size_bytes": 9320793,
+      "sha256": "f72a46d69e6df514187a2d52ba8ab2faf46d01eee286f89722e79b86e288bd28"
     },
     {
       "path": "data/source/bangali-urdu/bangaliurduquran.json",
@@ -204,9 +265,44 @@
       "sha256": "7f3984d603b5f6ad8d3f9f8776be44b4ed3da58609ac8b361e4e41f6470cdb54"
     },
     {
+      "path": "docs/handoff/APP_DATA_SPEC.md",
+      "size_bytes": 398,
+      "sha256": "5d350c93fab8238d013e19bcb4085857fc4720548e8e2f2570b6e606b31a0f9c"
+    },
+    {
+      "path": "docs/handoff/CODEX_MAIN_PROMPT.md",
+      "size_bytes": 401,
+      "sha256": "4e408712516fe2286d186820536d54ee818fd5396af7d74f466c1ebae6ae4ba8"
+    },
+    {
+      "path": "docs/handoff/LICENSE_NOTES_GLOBAL.md",
+      "size_bytes": 150,
+      "sha256": "fada1e6dbcbf01c6ed83642d4e222011ca0e22ce6b19fbb4967c17d3bf6cffe1"
+    },
+    {
+      "path": "docs/handoff/LOVABLE_APP_PROMPT.md",
+      "size_bytes": 421,
+      "sha256": "5372825b2a9fb5cc99bc9e8237d5162dc960fedd6533d30c3bb3609d0aa8127e"
+    },
+    {
+      "path": "docs/handoff/NEXT_STEPS.md",
+      "size_bytes": 238,
+      "sha256": "97706e168e5a02ed617445a4a662f89f9c728dab224e002737b3888db9a8a1ab"
+    },
+    {
+      "path": "docs/handoff/PIPELINE_SUMMARY.md",
+      "size_bytes": 403,
+      "sha256": "dfadaa36e504706bfc05d0a6be3c65f5ffbb57c78befa385113f4f315c1bb60a"
+    },
+    {
+      "path": "docs/handoff/project_status.json",
+      "size_bytes": 2487,
+      "sha256": "9a38801cdec0327465a66ad66a8e79347333dbd2e56efc5bdcee5c8be81d05e5"
+    },
+    {
       "path": "docs/PROJECT_STATUS.md",
-      "size_bytes": 1589,
-      "sha256": "08a1adca23a1d32c808d500daf878e867c4a9a752f22379fdb0936fa37dc397d"
+      "size_bytes": 2266,
+      "sha256": "6ad52b67bd568ac59e7e4b55f08b3ebbbaacc4c9c75e378b55ef415955afbcfd"
     },
     {
       "path": "docs/QA_REVIEW_GUIDE.md",
@@ -265,8 +361,8 @@
     },
     {
       "path": "manifest.json",
-      "size_bytes": 16852,
-      "sha256": "f6b45316bdabac69c114d9e8e79052802d70d75e212d642df2803d9d586272cc"
+      "size_bytes": 16853,
+      "sha256": "7b344cace26645ca8928c11ccc7f39b61641758febaa0076bfaabd12c7b60819"
     },
     {
       "path": "prompts/CODEX_KAZAKH_V2_CONTINUE_PROMPT.md",
@@ -290,8 +386,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 4426,
-      "sha256": "7a27d380140fdca52d596613340f0bd0f735b6110c9dbd821ba9407ea839cde5"
+      "size_bytes": 7165,
+      "sha256": "6bc07ae705638e9e0d3afc97c6af6216fa3d9098d9eb50ac9b7061ba88c15748"
     },
     {
       "path": "requirements.txt",
