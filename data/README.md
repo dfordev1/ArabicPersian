@@ -14,6 +14,9 @@ Published ZIP bundles for each language.
 - `kazakh/kazakh_app_final_bundle.zip`
 - `kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip`
 - `uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip`
+- `maltese/maltese_quran_arabic_script.json`
+- `maltese/maltese_quran_arabic_script.csv`
+- `maltese/maltese_quran_arabic_script_qa.json`
 - `turkmen/Turkmen_PersoArabic_local.json`
 - `turkmen/Turkmen_PersoArabic_local.csv`
 - `turkmen/Turkmen_PersoArabic_local_qa_failures.json`

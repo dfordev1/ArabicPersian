@@ -1,0 +1,13 @@
+{
+  "source": "data\\source\\maltese\\maltesequrandata.json",
+  "output_json": "data\\releases\\maltese\\maltese_quran_arabic_script.json",
+  "output_csv": "data\\releases\\maltese\\maltese_quran_arabic_script.csv",
+  "surahs": 114,
+  "verses": 6236,
+  "empty_outputs": [],
+  "latin_letters_remaining": [],
+  "notes": [
+    "Deterministic phonetic Maltese Latin-script to Arabic/Perso-Arabic script rendering.",
+    "This is not an Arabic translation and is not a scholarly Maltese Arabic-script orthography."
+  ]
+}

@@ -1,37 +1,22 @@
 {
-  "created_utc": "2026-06-29T06:12:09.365680+00:00",
+  "created_utc": "2026-06-29T06:20:46.825393+00:00",
   "description": "Current repository inventory for release, intermediate, source, and handoff assets.",
-  "synchronized_handoff": {
-    "source_zip": "C:/Users/Dev/Downloads/turkic_arabic_script_quran_full_future_handoff.zip",
-    "added_release_bundles": [
-      "data/releases/azeri/azeri_v2_perso_arabic_start.zip",
-      "data/releases/kazakh/kazakh_app_final_bundle.zip",
-      "data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
-      "data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip"
-    ],
-    "added_intermediate_bundles": [
-      "data/intermediate/kyrgyz/kyrgyz_quran_arabic_script_v1_beta.zip",
-      "data/intermediate/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
-      "data/intermediate/uzbek/uzbek_phase1_master_corpus.zip",
-      "data/intermediate/uzbek/uzbek_v2_consensus_corpus.zip",
-      "data/intermediate/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip"
+  "maltese_arabic_script_rendering": {
+    "verses": 6236,
+    "empty_outputs": 0,
+    "latin_letters_remaining": 0,
+    "main_files": [
+      "data/source/maltese/maltesequrandata.json",
+      "data/releases/maltese/maltese_quran_arabic_script.json",
+      "data/releases/maltese/maltese_quran_arabic_script.csv",
+      "data/releases/maltese/maltese_quran_arabic_script_qa.json"
     ]
   },
   "turkmen_release_candidate": {
     "rows": 6236,
     "source_hard_blockers": 0,
     "publishable_rows": 6236,
-    "transliteration_qa_failures": 0,
-    "main_files": [
-      "data/source/turkmen/Turkmen_verse_only_corrected.json",
-      "data/source/turkmen/Turkmen_verse_only_corrected.csv",
-      "data/releases/turkmen/Turkmen_PersoArabic_local.json",
-      "data/releases/turkmen/Turkmen_PersoArabic_local.csv",
-      "data/releases/turkmen/Turkmen_PersoArabic_local_qa_failures.json",
-      "data/releases/turkmen/Turkmen_source_correction_apply_report.json",
-      "data/releases/turkmen/Turkmen_v2_merge_report.json",
-      "docs/turkmen/Brain.json"
-    ]
+    "transliteration_qa_failures": 0
   },
   "files": [
     {
@@ -156,8 +141,8 @@
     },
     {
       "path": "data/README.md",
-      "size_bytes": 1857,
-      "sha256": "0d714edfdeb31184cc241728f07f293c23efc438e0c82f49cdce62051cedab0e"
+      "size_bytes": 1994,
+      "sha256": "181df0d84a44ab1d283c7bd12d6e7c73bf283c53b296d65f84ef2d602dea4db9"
     },
     {
       "path": "data/releases/azeri/azeri_v2_perso_arabic_start.zip",
@@ -183,6 +168,21 @@
       "path": "data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip",
       "size_bytes": 3082591,
       "sha256": "55e36cf8886362296b796113390b44f390a07ad9fb5a7230fa768f856cbf292e"
+    },
+    {
+      "path": "data/releases/maltese/maltese_quran_arabic_script.csv",
+      "size_bytes": 2660663,
+      "sha256": "4d10c334c962858d7ebaf0a5d0f6e60b75be2dae379d21764469951c6af69da0"
+    },
+    {
+      "path": "data/releases/maltese/maltese_quran_arabic_script.json",
+      "size_bytes": 2999723,
+      "sha256": "24cf87e76cffb1654abbb134555d2ec0c87432c1e5026da0231ecd39a41ae3af"
+    },
+    {
+      "path": "data/releases/maltese/maltese_quran_arabic_script_qa.json",
+      "size_bytes": 529,
+      "sha256": "408de6bae7a2b903274c946fc143d8b40301a24ff72628455d7ef027ced00ea1"
     },
     {
       "path": "data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip",
@@ -301,8 +301,8 @@
     },
     {
       "path": "docs/PROJECT_STATUS.md",
-      "size_bytes": 2266,
-      "sha256": "6ad52b67bd568ac59e7e4b55f08b3ebbbaacc4c9c75e378b55ef415955afbcfd"
+      "size_bytes": 2806,
+      "sha256": "740d2a406cc8970a4e2b4105f992bfe7df76c3a8ee1f7eaef7b49bea0ec5bc1a"
     },
     {
       "path": "docs/QA_REVIEW_GUIDE.md",
@@ -361,8 +361,8 @@
     },
     {
       "path": "manifest.json",
-      "size_bytes": 16853,
-      "sha256": "7b344cace26645ca8928c11ccc7f39b61641758febaa0076bfaabd12c7b60819"
+      "size_bytes": 32233,
+      "sha256": "011c6be826a9f31ca34f7c37d59776e408c4d10ae2baeb87a604e9db54f07a5d"
     },
     {
       "path": "prompts/CODEX_KAZAKH_V2_CONTINUE_PROMPT.md",
@@ -386,8 +386,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 7165,
-      "sha256": "6bc07ae705638e9e0d3afc97c6af6216fa3d9098d9eb50ac9b7061ba88c15748"
+      "size_bytes": 5593,
+      "sha256": "b0b141a2276175d3bfd752cb30ee531e84bec64b0862d1722c7890c1a2e4ed43"
     },
     {
       "path": "requirements.txt",
@@ -418,6 +418,11 @@
       "path": "scripts/split_verse_lookup_by_surah.py",
       "size_bytes": 853,
       "sha256": "f30024bd8f0e22686ba9077929406328fc3ae4aa3fb763a1d2263b37b4bcb8a8"
+    },
+    {
+      "path": "scripts/transliterate_maltese_arabic_script.py",
+      "size_bytes": 4876,
+      "sha256": "75cec4877c62d51ec00c5c217a4ad61192c6c6ef69325f92602fc78c4160bb1b"
     },
     {
       "path": "scripts/validate_json_files.py",

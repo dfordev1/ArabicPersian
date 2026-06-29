@@ -10,6 +10,7 @@ This repository is meant to be easy to browse: choose a language, open the main 
 |---|---|
 | Turkmen Roman-script translation data | [Turkmen Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) |
 | Turkmen Afghan Perso-Arabic transliteration | [Turkmen Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) |
+| Maltese Arabic/Perso-Arabic script rendering | [Maltese Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
 | All available JSON files | [JSON index below](#json-index) |
 | App/release bundles | [Release bundles below](#release-bundles) |
 | Project status | [Project status](docs/PROJECT_STATUS.md) |
@@ -27,7 +28,7 @@ This repository is meant to be easy to browse: choose a language, open the main 
 | Uzbek | v2 production fixed beta bundle | [Release ZIP](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip) |
 | Jawi | Source JSON input | [Source JSON](data/source/jawi/quranjawifinal.json) |
 | Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |
-| Maltese | Source JSON input | [Source JSON](data/source/maltese/maltesequrandata.json) |
+| Maltese | Source JSON plus Arabic/Perso-Arabic script rendering | [Source JSON](data/source/maltese/maltesequrandata.json) / [Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
 | DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
 
 ## JSON Index
@@ -44,6 +45,8 @@ This repository is meant to be easy to browse: choose a language, open the main 
 - [Jawi source JSON](data/source/jawi/quranjawifinal.json)
 - [Bangali-Urdu source JSON](data/source/bangali-urdu/bangaliurduquran.json)
 - [Maltese source JSON](data/source/maltese/maltesequrandata.json)
+- [Maltese Arabic/Perso-Arabic script rendering](data/releases/maltese/maltese_quran_arabic_script.json)
+- [Maltese Arabic/Perso-Arabic script QA](data/releases/maltese/maltese_quran_arabic_script_qa.json)
 - [DV source JSON](data/source/dv/dv-unknow-simple.json)
 
 ## Release Bundles

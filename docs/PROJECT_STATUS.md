@@ -90,6 +90,23 @@ Remaining:
 - License/source permission verification before broad publication
 - Normalize into the universal app schema
 
+## Maltese
+
+Status: **Arabic/Perso-Arabic script rendering generated**
+
+Completed:
+
+- Source JSON preserved
+- Deterministic Maltese Latin-script to Arabic/Perso-Arabic script JSON
+- CSV export
+- QA report with 6,236 verses, 0 empty outputs, and 0 Latin letters remaining in rendered text
+
+Remaining:
+
+- Native Maltese review of readability and orthographic choices
+- Decide whether to keep this as phonetic rendering or develop a stricter Maltese Arabic-script orthography
+- License/source permission verification before broad publication
+
 ## Turkmen
 
 Status: **release candidate**
