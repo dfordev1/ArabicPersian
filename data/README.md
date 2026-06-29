@@ -5,7 +5,9 @@ inputs for derived app assets.
 
 ## `data/releases/`
 
-Published ZIP bundles for each language.
+Published ZIP bundles and direct release-candidate JSON/CSV files.
+
+See the [release data index](releases/README.md) for clean links.
 
 - `turkish_quran_arabic_script_v4_0_consistency_usability.zip`
 - `azeri_quran_arabic_script_production_v1.zip`
@@ -27,6 +29,8 @@ Pipeline artifacts, QA bundles, and working ZIPs from the source workflows.
 
 These are useful for inspection and future regeneration, but they should not be
 treated as final user-facing releases.
+
+See the [intermediate pipeline index](intermediate/README.md) for clean links, and the [pipeline data index](../docs/PIPELINE_DATA_INDEX.md) for internal ZIP contents.
 
 Additional synchronized pipeline artifacts:
 

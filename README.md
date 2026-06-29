@@ -13,9 +13,11 @@ This repository is meant to be easy to browse: choose a language, open the main 
 | Turkmen Roman-script translation data | [Turkmen Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) |
 | Turkmen Afghan Perso-Arabic transliteration | [Turkmen Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) |
 | Maltese Arabic/Perso-Arabic script rendering | [Maltese Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
+| Browse by language | [Language index](docs/LANGUAGE_INDEX.md) |
 | All available JSON files | [JSON index below](#json-index) |
 | App/release bundles | [Release bundles below](#release-bundles) |
 | Mid-pipeline datasets inside ZIPs | [Pipeline data index](docs/PIPELINE_DATA_INDEX.md) |
+| Documentation hub | [Docs index](docs/README.md) |
 | Project status | [Project status](docs/PROJECT_STATUS.md) |
 | Data inventory with hashes | [Data inventory](docs/DATA_INVENTORY.json) |
 
@@ -75,6 +77,10 @@ Maltese Arabic/Perso-Arabic output is included as a beta script rendering and sh
 ## For Builders
 
 - [Data layout](data/README.md)
+- [Release data index](data/releases/README.md)
+- [Intermediate pipeline index](data/intermediate/README.md)
+- [Documentation hub](docs/README.md)
+- [Language index](docs/LANGUAGE_INDEX.md)
 - [Repository structure](docs/REPO_STRUCTURE.md)
 - [Pipeline data index](docs/PIPELINE_DATA_INDEX.md)
 - [App build guide](docs/APP_BUILD_GUIDE.md)
