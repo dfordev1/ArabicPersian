@@ -1,16 +1,36 @@
 # ArabicPersian
 
-Multilingual Arabic-script Qur'an renderings with a scope that can grow across Turkish, Azerbaijani, Kazakh, Jawi, Bangali-Urdu, Maltese, DV, and future languages.
+A simple public index for Qur'an translation data and Arabic/Perso-Arabic script renderings across Turkic and related language projects.
 
-This repository keeps the project broad on purpose: the same structure can hold more languages as you add them, without changing the overall layout.
+This repository is meant to be easy to browse: choose a language, open the main file, and use the data in an app, reader, archive, or review workflow.
 
-The starter app in `app/` is intentionally simple: it gives you a reader/search shell now, and it can later point at language-specific bundles without changing the foundation.
+## Start Here
 
-Additional source JSON assets can live under `data/source/` for languages that are still being organized into release bundles.
+| Need | Best file |
+|---|---|
+| Turkmen Roman-script translation data | [Turkmen Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) |
+| Turkmen Afghan Perso-Arabic transliteration | [Turkmen Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) |
+| All available JSON files | [JSON index below](#json-index) |
+| App/release bundles | [Release bundles below](#release-bundles) |
+| Project status | [Project status](docs/PROJECT_STATUS.md) |
+| Data inventory with hashes | [Data inventory](docs/DATA_INVENTORY.json) |
 
-## Direct Data Links
+## Languages
 
-### Main JSON Files
+| Language | What is available | Open |
+|---|---|---|
+| Turkmen | Roman source plus Afghan Turkmen Perso-Arabic transliteration | [Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [Roman CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) / [Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [Perso-Arabic CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) |
+| Turkish | Arabic-script production candidate bundle | [Release ZIP](data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip) |
+| Azeri/Azerbaijani | Production v1 plus v2 Perso-Arabic starter | [Production v1 ZIP](data/releases/azeri_quran_arabic_script_production_v1.zip) / [v2 starter ZIP](data/releases/azeri/azeri_v2_perso_arabic_start.zip) |
+| Kazakh | Production v1 plus app-final beta bundle | [Production v1 ZIP](data/releases/kazakh_quran_arabic_script_production_v1.zip) / [App-final ZIP](data/releases/kazakh/kazakh_app_final_bundle.zip) |
+| Kyrgyz | QA production v1 beta bundle | [Release ZIP](data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip) |
+| Uzbek | v2 production fixed beta bundle | [Release ZIP](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip) |
+| Jawi | Source JSON input | [Source JSON](data/source/jawi/quranjawifinal.json) |
+| Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |
+| Maltese | Source JSON input | [Source JSON](data/source/maltese/maltesequrandata.json) |
+| DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
+
+## JSON Index
 
 - [Manifest](manifest.json)
 - [Repository data inventory](docs/DATA_INVENTORY.json)
@@ -26,12 +46,7 @@ Additional source JSON assets can live under `data/source/` for languages that a
 - [Maltese source JSON](data/source/maltese/maltesequrandata.json)
 - [DV source JSON](data/source/dv/dv-unknow-simple.json)
 
-### Main CSV Files
-
-- [Turkmen corrected Roman-script source CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv)
-- [Turkmen Afghan Perso-Arabic transliteration CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv)
-
-### Main Release Bundles
+## Release Bundles
 
 - [Turkish v4.0 consistency/usability bundle](data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip)
 - [Azeri production v1 bundle](data/releases/azeri_quran_arabic_script_production_v1.zip)
@@ -41,91 +56,18 @@ Additional source JSON assets can live under `data/source/` for languages that a
 - [Kyrgyz QA production v1 beta bundle](data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip)
 - [Uzbek v2 production fixed beta bundle](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip)
 
-### Handoff And Planning Docs
+## Notes
 
-- [Pipeline summary](docs/handoff/PIPELINE_SUMMARY.md)
+These files are computational renderings, transliterations, or organized source datasets. Do not describe them as official or definitive scholarly editions unless they have been reviewed by qualified native and religious-text reviewers.
+
+Before broad public redistribution, verify source permissions and attribution requirements.
+
+## For Builders
+
+- [Data layout](data/README.md)
+- [Repository structure](docs/REPO_STRUCTURE.md)
+- [App build guide](docs/APP_BUILD_GUIDE.md)
 - [Universal app data spec](docs/handoff/APP_DATA_SPEC.md)
-- [Next steps roadmap](docs/handoff/NEXT_STEPS.md)
-- [Global license notes](docs/handoff/LICENSE_NOTES_GLOBAL.md)
-
-## Repository structure
-
-See [docs/REPO_STRUCTURE.md](docs/REPO_STRUCTURE.md) for the GitHub-ready layout this handoff is organized around.
-
-## Current language bundles
-
-| Language | Status | Bundle |
-|---|---:|---|
-| Turkish | Mature production candidate | `data/releases/turkish_quran_arabic_script_v4_0_consistency_usability.zip` |
-| Azeri/Azerbaijani | Production v1 + v2 Perso-Arabic starter | [Production v1](data/releases/azeri_quran_arabic_script_production_v1.zip) / [v2 starter](data/releases/azeri/azeri_v2_perso_arabic_start.zip) |
-| Kazakh | Production v1 + app-final beta + v2 pipeline intermediates | [Production v1](data/releases/kazakh_quran_arabic_script_production_v1.zip) / [App-final beta](data/releases/kazakh/kazakh_app_final_bundle.zip) |
-| Kyrgyz | QA production v1 beta | [QA production bundle](data/releases/kyrgyz/kyrgyz_quran_arabic_script_v1_qa_production.zip) |
-| Uzbek | v2 production fixed beta | [v2 production fixed bundle](data/releases/uzbek/uzbek_quran_arabic_script_v2_production_fixed.zip) |
-| Turkmen | Release candidate; Roman source + Afghan Turkmen Perso-Arabic transliteration | [Roman JSON](data/source/turkmen/Turkmen_verse_only_corrected.json) / [Roman CSV](data/source/turkmen/Turkmen_verse_only_corrected.csv) / [Perso-Arabic JSON](data/releases/turkmen/Turkmen_PersoArabic_local.json) / [Perso-Arabic CSV](data/releases/turkmen/Turkmen_PersoArabic_local.csv) / [QA notes](docs/turkmen/README.md) |
-| Jawi | Source JSON input, safe-cleaned working baseline refreshed | [Source JSON](data/source/jawi/quranjawifinal.json) |
-| Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |
-| Maltese | Source JSON input | [Source JSON](data/source/maltese/maltesequrandata.json) |
-| DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
-
-## Project goal
-
-Render modern Turkish, Azeri, and Kazakh Qur'an translations into readable Arabic/Perso-Arabic script, while also organizing new source inputs such as Jawi, Bangali-Urdu, Maltese, and DV into the same expandable workflow, with dictionaries, search indexes, QA reports, and app-ready JSON.
-
-The Turkmen bundle adds both a corrected Roman-script source and an Afghan Turkmen Perso-Arabic transliteration release candidate. Start from [docs/turkmen/README.md](docs/turkmen/README.md) for exact file links and QA status.
-
-## Important claim policy
-
-Do **not** market these as official or definitive historical editions.
-
-Recommended labels:
-
-- Turkish Arabic-Script Transliteration
-- Azerbaijani Qur'an Arabic-Script Rendering
-- Kazakh Qur'an Arabic-Script Digital Edition
-- Turkmen Qur'an Afghan Turkmen Perso-Arabic Transliteration
-- Jawi Qur'an Arabic-Script Rendering
-- Bangali-Urdu Qur'an Arabic-Script Rendering
-- Maltese Qur'an Arabic-Script Rendering
-- DV Qur'an Arabic-Script Rendering
-
-Avoid:
-
-- Official Ottoman Qur'an
-- Definitive Kazakh Arabic-script Qur'an
-- Scholarly verified edition
-
-until reviewed by qualified native/scholarly reviewers.
-
-## Quick start
-
-1. Clone this repo.
-2. Unzip the release bundle for the language you need.
-3. Use the `verse_lookup` JSON as the primary app database.
-4. Use dictionary/search-index JSON files for search and word tap features.
-5. Prefer derived copies for app packaging and keep the source ZIPs under `data/releases/`.
-6. Keep raw source JSON inputs under `data/source/` until they are converted into a release format.
-
-### Jawi source note
-
-The Jawi source JSON at `data/source/jawi/quranjawifinal.json` was refreshed from a
-safe-cleaned working baseline that only applies conservative Unicode and spacing
-normalization. It remains source material rather than a finalized scholarly edition.
-
-### Maltese source note
-
-The Maltese source JSON at `data/source/maltese/maltesequrandata.json` is kept as
-raw source material and should be converted into app-ready data only after the
-structure is reviewed and mapped.
-
-### DV source note
-
-The `dv` source JSON at `data/source/dv/dv-unknow-simple.json` is preserved as
-source material under a short code label until the canonical project name is
-confirmed.
-
-See:
-
-- `docs/CODEX_EXPORT_GUIDE.md`
-- `docs/APP_BUILD_GUIDE.md`
-- `docs/PROJECT_STATUS.md`
-- `docs/REPO_STRUCTURE.md`
+- [Pipeline summary](docs/handoff/PIPELINE_SUMMARY.md)
+- [Next steps](docs/handoff/NEXT_STEPS.md)
+- [License notes](docs/handoff/LICENSE_NOTES_GLOBAL.md)
