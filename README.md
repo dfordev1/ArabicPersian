@@ -36,6 +36,7 @@ This repository is meant to be easy to browse: choose a language, open the main 
 | Maltese | Source JSON plus Arabic/Perso-Arabic script rendering beta | [Source JSON](data/source/maltese/maltesequrandata.json) / [Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
 | DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
 | Tatar | Source JSON inputs | [Arabic-source JSON](data/source/tt/tt-arabic.json) / [Simple-source JSON](data/source/tt/tt-unknow-simple.json) |
+| Chechen | Source JSON inputs plus Latin and Arabic-script transliterations | [Cyrillic JSON](data/source/chechen/chechen_cyrillic.json) / [Latin transliteration](data/source/chechen/chechen_latin_transliteration.json) / [Arabic-script transliteration](data/source/chechen/chechen_arabic_script_transliteration.json) / [Arabic text](data/source/chechen/arabic_text.json) |
 
 ## JSON Index
 
@@ -56,6 +57,10 @@ This repository is meant to be easy to browse: choose a language, open the main 
 - [DV source JSON](data/source/dv/dv-unknow-simple.json)
 - [Tatar Arabic-source JSON](data/source/tt/tt-arabic.json)
 - [Tatar simple-source JSON](data/source/tt/tt-unknow-simple.json)
+- [Chechen Cyrillic source JSON](data/source/chechen/chechen_cyrillic.json)
+- [Chechen Latin transliteration JSON](data/source/chechen/chechen_latin_transliteration.json)
+- [Chechen Arabic-script transliteration JSON](data/source/chechen/chechen_arabic_script_transliteration.json)
+- [Chechen Arabic text JSON](data/source/chechen/arabic_text.json)
 
 ## Release Bundles
 

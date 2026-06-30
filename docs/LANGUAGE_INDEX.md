@@ -9,6 +9,7 @@ This page gives one clean entry point per language.
 | Turkmen | Release candidate; Roman source plus Afghan Turkmen Perso-Arabic transliteration | [Roman JSON](../data/source/turkmen/Turkmen_verse_only_corrected.json) / [Roman CSV](../data/source/turkmen/Turkmen_verse_only_corrected.csv) / [Perso-Arabic JSON](../data/releases/turkmen/Turkmen_PersoArabic_local.json) / [Perso-Arabic CSV](../data/releases/turkmen/Turkmen_PersoArabic_local.csv) / [QA notes](turkmen/README.md) |
 | Maltese | Arabic/Perso-Arabic script rendering beta | [Source JSON](../data/source/maltese/maltesequrandata.json) / [Arabic-script JSON](../data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](../data/releases/maltese/maltese_quran_arabic_script.csv) / [QA](../data/releases/maltese/maltese_quran_arabic_script_qa.json) |
 | Tatar | Source JSON inputs | [Arabic-source JSON](../data/source/tt/tt-arabic.json) / [Simple-source JSON](../data/source/tt/tt-unknow-simple.json) |
+| Chechen | Source JSON inputs plus Latin and Arabic-script transliterations | [Cyrillic JSON](../data/source/chechen/chechen_cyrillic.json) / [Latin transliteration](../data/source/chechen/chechen_latin_transliteration.json) / [Arabic-script transliteration](../data/source/chechen/chechen_arabic_script_transliteration.json) / [Arabic text](../data/source/chechen/arabic_text.json) |
 
 ## Release Bundles
 
@@ -29,6 +30,7 @@ This page gives one clean entry point per language.
 | Maltese | [Source JSON](../data/source/maltese/maltesequrandata.json) |
 | DV | [Source JSON](../data/source/dv/dv-unknow-simple.json) |
 | Tatar | [Arabic-source JSON](../data/source/tt/tt-arabic.json) / [Simple-source JSON](../data/source/tt/tt-unknow-simple.json) |
+| Chechen | [Cyrillic JSON](../data/source/chechen/chechen_cyrillic.json) / [Latin transliteration](../data/source/chechen/chechen_latin_transliteration.json) / [Arabic-script transliteration](../data/source/chechen/chechen_arabic_script_transliteration.json) / [Arabic text](../data/source/chechen/arabic_text.json) |
 | Turkmen | [Corrected source JSON](../data/source/turkmen/Turkmen_verse_only_corrected.json) / [CSV](../data/source/turkmen/Turkmen_verse_only_corrected.csv) |
 
 For internal dictionary, word-frequency, morphology, validation, and QA files inside ZIPs, see the [Pipeline Data Index](PIPELINE_DATA_INDEX.md).

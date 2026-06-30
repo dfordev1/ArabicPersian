@@ -1081,6 +1081,26 @@
       "path": "data/source/tt/tt-unknow-simple.json",
       "size_bytes": 2283392,
       "sha256": "8b85d255a67b62241bb6e60e48e20f74c21898ed5ebd45d4ccf7993dc550fa79"
+    },
+    {
+      "path": "data/source/chechen/arabic_text.json",
+      "size_bytes": 1372059,
+      "sha256": "bfc8e920ec039c4e362772d874e766b00632f7228fc8d1555386230f5d004fa7"
+    },
+    {
+      "path": "data/source/chechen/chechen_arabic_script_transliteration.json",
+      "size_bytes": 1559158,
+      "sha256": "4f28621b572916b5fbd1520b20b448e6c4e90c74d9cf007b75c5806d6f2c481e"
+    },
+    {
+      "path": "data/source/chechen/chechen_cyrillic.json",
+      "size_bytes": 1601862,
+      "sha256": "a088a7927827f1b7536842857d7d285b3cc47b3efa1631ab2781aa07521e9a71"
+    },
+    {
+      "path": "data/source/chechen/chechen_latin_transliteration.json",
+      "size_bytes": 1046707,
+      "sha256": "afef5e580e69bd18b71f1bd17187c5b8ee654e16a60ea9fd37c62acd78cf4ecc"
     }
   ]
 }

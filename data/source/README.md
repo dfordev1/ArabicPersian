@@ -11,6 +11,10 @@ ZIP bundles.
 - `dv/dv-unknow-simple.json`
 - `tt/tt-arabic.json`
 - `tt/tt-unknow-simple.json`
+- `chechen/arabic_text.json`
+- `chechen/chechen_cyrillic.json`
+- `chechen/chechen_latin_transliteration.json`
+- `chechen/chechen_arabic_script_transliteration.json`
 
 ## Usage rule
 
@@ -32,3 +36,8 @@ name is confirmed.
 
 The Tatar source inputs are stored under `tt/` to keep both the Arabic-script and
 simple source variants together.
+
+## Chechen note
+
+The Chechen source inputs include the original Cyrillic translation, Arabic text,
+Latin transliteration, and Arabic-script transliteration.
