@@ -35,6 +35,7 @@ This repository is meant to be easy to browse: choose a language, open the main 
 | Bangali-Urdu | Source JSON input | [Source JSON](data/source/bangali-urdu/bangaliurduquran.json) |
 | Maltese | Source JSON plus Arabic/Perso-Arabic script rendering beta | [Source JSON](data/source/maltese/maltesequrandata.json) / [Arabic-script JSON](data/releases/maltese/maltese_quran_arabic_script.json) / [CSV](data/releases/maltese/maltese_quran_arabic_script.csv) |
 | DV | Source JSON input | [Source JSON](data/source/dv/dv-unknow-simple.json) |
+| Tatar | Source JSON inputs | [Arabic-source JSON](data/source/tt/tt-arabic.json) / [Simple-source JSON](data/source/tt/tt-unknow-simple.json) |
 
 ## JSON Index
 
@@ -53,6 +54,8 @@ This repository is meant to be easy to browse: choose a language, open the main 
 - [Maltese Arabic/Perso-Arabic script rendering](data/releases/maltese/maltese_quran_arabic_script.json)
 - [Maltese Arabic/Perso-Arabic script QA](data/releases/maltese/maltese_quran_arabic_script_qa.json)
 - [DV source JSON](data/source/dv/dv-unknow-simple.json)
+- [Tatar Arabic-source JSON](data/source/tt/tt-arabic.json)
+- [Tatar simple-source JSON](data/source/tt/tt-unknow-simple.json)
 
 ## Release Bundles
 

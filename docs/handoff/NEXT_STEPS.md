@@ -12,3 +12,6 @@ Future languages:
 3. Karakalpak
 4. Uyghur
 5. Crimean Tatar
+
+Tatar note:
+- Tatar source inputs have been added under `data/source/tt/` as `tt-arabic.json` and `tt-unknow-simple.json`.

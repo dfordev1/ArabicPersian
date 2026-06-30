@@ -9,6 +9,8 @@ ZIP bundles.
 - `bangali-urdu/bangaliurduquran.json`
 - `maltese/maltesequrandata.json`
 - `dv/dv-unknow-simple.json`
+- `tt/tt-arabic.json`
+- `tt/tt-unknow-simple.json`
 
 ## Usage rule
 
@@ -25,3 +27,8 @@ material for further review and packaging.
 
 The `dv` source JSON is kept under a short code label until the canonical project
 name is confirmed.
+
+## Tatar note
+
+The Tatar source inputs are stored under `tt/` to keep both the Arabic-script and
+simple source variants together.
